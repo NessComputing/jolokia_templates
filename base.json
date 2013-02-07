@@ -5,7 +5,7 @@
       "mbean": "java.lang:name=ParNew,type=GarbageCollector",
       "attributes": [
         {
-          "name": "LastGcInfo"
+          "name": "LastGcInfo",
           "composites": [
             {
               "name": "memoryUsageBeforeGc|Code Cache|init",
@@ -20,9 +20,9 @@
               "name": "memoryUsageBeforeGc|Code Cache|committed",
               "graph":
               {
-                "name": "MemoryUsage_Before_GC_Code_Cache_Committed"
-                "description": "Code Cache (Committed) Memory Usage Before GC"
-                "units": "bytes"
+                "name": "MemoryUsage_Before_GC_Code_Cache_Committed",
+                "description": "Code Cache (Committed) Memory Usage Before GC",
+                "units": "bytes",
                 "type": "int32"
               }
             }
