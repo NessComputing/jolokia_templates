@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "attributes": [
+  "mappings": [
     {
       "mbean": "java.lang:name=ParNew,type=GarbageCollector",
       "attributes": [
