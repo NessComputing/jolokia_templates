@@ -10,7 +10,7 @@
           "graph": {
             "name": "ConcurrentMarkSweep_Collection_Count",
             "description": "Concurrent MarkSweep Collection Count",
-            "units": "object",
+            "units": "objects",
             "type": "uint32"
           }
         },
@@ -34,7 +34,7 @@
           "graph": {
             "name": "ParNew_Collection_Count",
             "description": "ParNew Collection Count",
-            "units": "object",
+            "units": "objects",
             "type": "uint32"
           }
         },
