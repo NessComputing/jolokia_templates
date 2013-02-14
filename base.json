@@ -2,7 +2,7 @@
   "name": "base",
   "mappings": [
     {
-      "mbean": "java.lang:type=GarbageCollector,name=ConcurrentMarkSweep",
+      "mbean": "java.lang:name=ConcurrentMarkSweep,type=GarbageCollector",
       "attributes": [
         {
           "name": "LastGcInfo",
