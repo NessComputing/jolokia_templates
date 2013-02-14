@@ -1,6 +1,7 @@
 {
   "name": "base",
   "mappings": [
+  
     {
       "mbean": "java.lang:name=ConcurrentMarkSweep,type=GarbageCollector",
       "attributes": [
@@ -26,7 +27,7 @@
     },
 
     {
-      "mbean": "java.lang:type=GarbageCollector,name=ParNew",
+      "mbean": "java.lang:name=ParNew,type=GarbageCollector",
       "attributes": [
         {
           "name": "CollectionCount",
@@ -48,5 +49,6 @@
         }
       ]
     }
+
   ]
 }
