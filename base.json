@@ -5,28 +5,46 @@
       "mbean": "java.lang:name=ConcurrentMarkSweep,type=GarbageCollector",
       "attributes": [
         {
-          "name": "LastGcInfo",
-          "composites": [
-            {
-              "name": "memoryUsageBeforeGc|Code Cache|init",
-              "graph": {
-                "name": "MemoryUsage_Before_GC_Code_Cache_Init",
-                "description": "Code Cache (Init) Memory Usage Before GC",
-                "units": "bytes",
-                "type": "int32"
-              }
-            },
-            {
-              "name": "memoryUsageBeforeGc|Code Cache|committed",
-              "graph":
-              {
-                "name": "MemoryUsage_Before_GC_Code_Cache_Committed",
-                "description": "Code Cache (Committed) Memory Usage Before GC",
-                "units": "bytes",
-                "type": "int32"
-              }
-            }
-          ]
+          "name": "CollectionCount",
+          "graph": {
+            "name": "ConcurrentMarkSweep_Collection_Count",
+            "description": "Concurrent MarkSweep Collection Count",
+            "units": "object",
+            "type": "uint32"
+          }
+        },
+        {
+          "name": "CollectionTime",
+          "graph": {
+            "name": "ConcurrentMarkSweep_Collection_Time",
+            "description": "Concurrent MarkSweep Collection Time",
+            "units": "milliseconds",
+            "type": "uint32"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "java.lang:type=GarbageCollector,name=ParNew",
+      "attributes": [
+        {
+          "name": "CollectionCount",
+          "graph": {
+            "name": "ParNew_Collection_Count",
+            "description": "ParNew Collection Count",
+            "units": "object",
+            "type": "uint32"
+          }
+        },
+        {
+          "name": "CollectionTime",
+          "graph": {
+            "name": "ParNew_Collection_Time",
+            "description": "ParNew Collection Time",
+            "units": "milliseconds",
+            "type": "uint32"
+          }
         }
       ]
     }
