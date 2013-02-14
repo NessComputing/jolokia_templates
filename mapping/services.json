@@ -24,7 +24,7 @@
   , "PlaceServer": "base"
   , "PlaceWeb": "base"
   , "PostalServer": "base"
-  , "QuickviteServer": "base"
+  , "QuickviteServer": null
   , "RatingHistogramService": "base"
   , "RatingServer": "base"
   , "RecommenderServer": "base"
