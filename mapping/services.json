@@ -1,6 +1,6 @@
 {
     "ActivemqService": null
-  , "BadgeServer": "base"
+  , "BadgeServer": null
   , "Binshim": null
   , "CheckinServer": "base"
   , "DiscoveryServer": "base"
@@ -14,15 +14,15 @@
   , "Frontdoor": "base"
   , "Haproxy": null
   , "Instagram": null
-  , "JsonApi": "base"
-  , "MessageServer": "base"
+  , "JsonApi": null
+  , "MessageServer": null
   , "NewsfeedServer": "base"
-  , "NotificationServer": "base"
+  , "NotificationServer": null
   , "OpengraphSyndicationServer": "base"
   , "PhotoServer": "base"
   , "PlaceConstraintModerationServer": "base"
   , "PlaceServer": "base"
-  , "PlaceWeb": "base"
+  , "PlaceWeb": null
   , "PostalServer": "base"
   , "QuickviteServer": null
   , "RatingHistogramService": "base"
