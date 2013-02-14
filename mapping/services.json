@@ -2,37 +2,37 @@
     "ActivemqService": null
   , "BadgeServer": "base"
   , "Binshim": null
-  , "CheckinServer": null
-  , "DiscoveryServer": null
-  , "Email": null
-  , "EntityUpdateConsolidatedServer": null
+  , "CheckinServer": "base"
+  , "DiscoveryServer": "base"
+  , "Email": "base"
+  , "EntityUpdateConsolidatedServer": "base"
   , "EventDashboard": null
   , "FacebookCropper": null
-  , "FacebookFc2": null
-  , "FlagServer": null
+  , "FacebookFc2": "base"
+  , "FlagServer": "base"
   , "FollowServer": null
-  , "Frontdoor": null
+  , "Frontdoor": "base"
   , "Haproxy": null
   , "Instagram": null
-  , "JsonApi": null
-  , "MessageServer": null
-  , "NewsfeedServer": null
-  , "NotificationServer": null
-  , "OpengraphSyndicationServer": null
-  , "PhotoServer": null
-  , "PlaceConstraintModerationServer": null
-  , "PlaceServer": null
-  , "PlaceWeb": null
-  , "PostalServer": null
-  , "QuickviteServer": null
-  , "RatingHistogramService": null
-  , "RatingServer": null
-  , "RecommenderServer": null
-  , "RecommenderTrainerServer": null
+  , "JsonApi": "base"
+  , "MessageServer": "base"
+  , "NewsfeedServer": "base"
+  , "NotificationServer": "base"
+  , "OpengraphSyndicationServer": "base"
+  , "PhotoServer": "base"
+  , "PlaceConstraintModerationServer": "base"
+  , "PlaceServer": "base"
+  , "PlaceWeb": "base"
+  , "PostalServer": "base"
+  , "QuickviteServer": "base"
+  , "RatingHistogramService": "base"
+  , "RatingServer": "base"
+  , "RecommenderServer": "base"
+  , "RecommenderTrainerServer": "base"
   , "S3UploadSigner": null
-  , "SearchCore": null
-  , "SearchIndexing": null
-  , "UserServer": null
+  , "SearchCore": "base"
+  , "SearchIndexing": "base"
+  , "UserServer": "base"
   , "WebEntityPageServer": null
-  , "WorkQueueServer": null
+  , "WorkQueueServer": "base"
 }

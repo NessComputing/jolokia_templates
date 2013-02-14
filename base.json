@@ -48,6 +48,59 @@
           }
         }
       ]
+    },
+
+    {
+      "mbean": "java.lang:type=Threading",
+      "attributes": [
+        {
+          "name": "ThreadCount",
+          "graph": {
+            "name": "Thread_Count",
+            "description": "Thread Count",
+            "units": "threads",
+            "type": "uint32"
+          }
+        },
+        {
+          "name": "PeakThreadCount",
+          "graph": {
+            "name": "Peak_Thread_Count",
+            "description": "Peak Thread Count",
+            "units": "threads",
+            "type": "uint32"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "java.lang:type=Memory",
+      "attributes": [
+        {
+          "name": "HeapMemoryUsage",
+          "composites": [
+            {
+              "name": "used",
+              "graph": {
+                "name": "Heap_used",
+                "description": "Used Heap Memory",
+                "units": "bytes",
+                "type": "uint32"
+              }
+            },
+            {
+              "name": "committed",
+              "graph": {
+                "name": "Heap_committed",
+                "description": "Committed Heap Memory",
+                "units": "bytes",
+                "type": "uint32"
+              }
+            }
+          ]
+        }
+      ]
     }
 
   ]
