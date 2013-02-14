@@ -1,6 +1,6 @@
 {
     "ActivemqService": null
-  , "BadgeServer": null
+  , "BadgeServer": "base"
   , "Binshim": null
   , "CheckinServer": null
   , "DiscoveryServer": null
