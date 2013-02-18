@@ -20,7 +20,7 @@
           "graph": {
             "name": "ConcurrentMarkSweep_Collection_Time",
             "description": "Concurrent MarkSweep Collection Time",
-            "units": "seconds",
+            "units": "milliseconds",
             "type": "uint32",
             "slope": "positive"
           }
@@ -46,7 +46,7 @@
           "graph": {
             "name": "ParNew_Collection_Time",
             "description": "ParNew Collection Time",
-            "units": "seconds",
+            "units": "milliseconds",
             "type": "uint32",
             "slope": "positive"
           }
@@ -89,15 +89,6 @@
               "graph": {
                 "name": "Heap_used",
                 "description": "Used Heap Memory",
-                "units": "bytes",
-                "type": "uint32"
-              }
-            },
-            {
-              "name": "committed",
-              "graph": {
-                "name": "Heap_committed",
-                "description": "Committed Heap Memory",
                 "units": "bytes",
                 "type": "uint32"
               }
