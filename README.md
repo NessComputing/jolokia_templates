@@ -95,7 +95,7 @@ To install it `jmx4node`, we need to have node installed.
 
 ```bash
 brew install node
-brew insall jolokia_client
+npm install -g jolokia_client
 ```
 
 ### Verifying service info against galaxy
