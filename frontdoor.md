@@ -4,7 +4,7 @@
   "mappings": [
   
     {
-      "mbean": "ness.frontdoor:name=lookup,type=FrontDoorHandler",
+      "mbean": "ness.frontdoor:name=lookup,type=FrontdoorHandler",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -64,7 +64,7 @@
     },
 
     {
-      "mbean": "ness.frontdoor:name=not-found,type=FrontDoorHandler",
+      "mbean": "ness.frontdoor:name=not-found,type=FrontdoorHandler",
       "attributes": [
         {
           "name": "NotFound",
