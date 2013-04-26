@@ -63,7 +63,7 @@ which tells ganglia how it is supposed to interpret the information.
 }
 ```
 
-#### Ineritance
+#### Inheritance
 
 Templates can inherit a parent by just adding the inherits key:
 
