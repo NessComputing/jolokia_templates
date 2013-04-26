@@ -1,0 +1,115 @@
+{
+  "name": "frontdoor",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.frontdoor:name=lookup,type=FrontDoorHandler",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Lookup_50th_Percentile",
+            "description": "Lookup 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Lookup_75th_Percentile",
+            "description": "Lookup 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Lookup_95th_Percentile",
+            "description": "Lookup 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Lookup_99th_Percentile",
+            "description": "Lookup 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Lookup_999th_Percentile",
+            "description": "Lookup 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Lookup_Max",
+            "description": "Lookup Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.frontdoor:name=not-found,type=FrontDoorHandler",
+      "attributes": [
+        {
+          "name": "NotFound",
+          "graph": {
+            "name": "Not_Found",
+            "description": "Not Found",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.frontdoor.batch:name=batch-requests,type=BatchRequestHandler",
+      "attributes": [
+        {
+          "name": "BatchRequests",
+          "graph": {
+            "name": "Batch_Requests",
+            "description": "Batch Requests",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.frontdoor.registry:name=num-available-services,type=LocalServiceRegistry",
+      "attributes": [
+        {
+          "name": "AvailableServices",
+          "graph": {
+            "name": "Available_Services",
+            "description": "Available_Services",
+            "units": "objects",
+            "type": "uint32"
+          }
+        }
+      ]
+    }
+
+  ]
+}
+
