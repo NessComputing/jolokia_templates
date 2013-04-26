@@ -84,3 +84,26 @@ The services.json mappings is to represent our `service => template` lookup
 ### Flow of info
 
     jolokia_templates --> git pull --> node-jolosrv --> node-gmond --> gmetric
+
+## Adding services
+
+There's an excellent tool provided by jolokia_client called `jmx4node` that allows us to query jolokia.
+
+We have a local fork at `git@github.com:NessComputing/jolokia-client.git`.
+
+To install it `jmx4node`, we need to have node installed.
+
+```bash
+brew install node
+brew insall jolokia_client
+```
+
+### Verifying service info against galaxy
+
+We have a tool to show http ports on galaxy services called `galaxy-info`.
+
+If you would like a listing of services you can run `/usr/local/bin/galaxy-info list` and it will show the service/port entries.
+
+Finally, to get a list of attributes for a jmx entry, you can run `jxm4node <url> list  [mbean]`.
+
+ex: `jmx4node http://10.20.30.40:8080/jolokia/ list JMImplementation`
