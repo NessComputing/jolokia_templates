@@ -11,7 +11,7 @@
   , "FacebookFc2": "base"
   , "FlagServer": "base"
   , "FollowServer": null
-  , "Frontdoor": "base"
+  , "Frontdoor": "frontdoor"
   , "Haproxy": null
   , "Instagram": null
   , "JsonApi": null
