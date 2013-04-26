@@ -111,3 +111,6 @@ If you would like a listing of services you can run `/usr/local/bin/galaxy-info 
 Finally, to get a list of attributes for a jmx entry, you can run `jxm4node <url> list  [mbean]`.
 
 ex: `jmx4node http://10.20.30.40:8080/jolokia/ list JMImplementation`
+
+Example reading the frontdoor handler: `jmx4node http://10.20.30.40:8080/jolokia/ read "ness.frontdoor:name=lookup,type=FrontdoorHandler"`
+
