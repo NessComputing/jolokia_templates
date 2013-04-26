@@ -70,7 +70,7 @@ Templates can inherit a parent by just adding the inherits key:
 ```javascript
 {
   "name": "child_of_base",
-  "inerhits": "base",
+  "inherits": "base",
   "mappings": [
 
   ...
@@ -97,6 +97,10 @@ To install it `jmx4node`, we need to have node installed.
 brew install node
 npm install -g jolokia_client
 ```
+
+And verify that your profile has node binaries in the $PATH
+
+`export PATH=/usr/local/share/npm/bin:$PATH`
 
 ### Verifying service info against galaxy
 
