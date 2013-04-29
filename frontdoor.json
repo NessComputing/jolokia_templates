@@ -11,7 +11,7 @@
           "graph": {
             "name": "Lookup_50th_Percentile",
             "description": "Lookup 50th Percentile",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         },
@@ -20,7 +20,7 @@
           "graph": {
             "name": "Lookup_75th_Percentile",
             "description": "Lookup 75th Percentile",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         },
@@ -29,7 +29,7 @@
           "graph": {
             "name": "Lookup_95th_Percentile",
             "description": "Lookup 95th Percentile",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         },
@@ -38,7 +38,7 @@
           "graph": {
             "name": "Lookup_99th_Percentile",
             "description": "Lookup 99th Percentile",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         },
@@ -47,7 +47,7 @@
           "graph": {
             "name": "Lookup_999th_Percentile",
             "description": "Lookup 999th Percentile",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         },
@@ -56,7 +56,7 @@
           "graph": {
             "name": "Lookup_Max",
             "description": "Lookup Max",
-            "units": "seconds",
+            "units": "ms",
             "type": "float"
           }
         }
