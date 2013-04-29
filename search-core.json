@@ -1,0 +1,68 @@
+{
+  "name": "search-core",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.api.resource:name=doSearch,type=SearchResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Search_50th_Percentile",
+            "description": "Search 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Search_75th_Percentile",
+            "description": "Search 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Search_95th_Percentile",
+            "description": "Search 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Search_99th_Percentile",
+            "description": "Search 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Search_999th_Percentile",
+            "description": "Search 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Search_Max",
+            "description": "Search Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

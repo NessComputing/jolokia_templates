@@ -1,0 +1,13 @@
+{
+  "name": "search-core",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.api.resource:name=doSearch,type=SearchResourceV3",
+      ResponseStatistics Search
+    }
+  ]
+}
+
+
