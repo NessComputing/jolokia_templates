@@ -15,6 +15,7 @@
   , "Haproxy": null
   , "Instagram": null
   , "JsonApi": null
+  , "MagicScreen": "magic-screen"
   , "MessageServer": null
   , "NewsfeedServer": "base"
   , "NotificationServer": null
@@ -30,7 +31,7 @@
   , "RecommenderServer": "base"
   , "RecommenderTrainerServer": "base"
   , "S3UploadSigner": null
-  , "SearchCore": "base"
+  , "SearchCore": "search-core"
   , "SearchIndexing": "base"
   , "UserServer": "base"
   , "WebEntityPageServer": null

@@ -1,0 +1,18 @@
+{
+  "name": "magic-screen",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.magic:name=getMagicList,type=MagicResource",
+      ResponseStatistics MagicList
+    },
+
+    {
+      "mbean": "ness.magic:name=getMagicPhoto,type=MagicResource",
+      ResponseStatistics MagicPhoto
+    }
+  ]
+}
+
+

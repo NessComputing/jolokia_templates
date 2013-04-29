@@ -1,0 +1,128 @@
+{
+  "name": "magic-screen",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.magic:name=getMagicList,type=MagicResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "MagicList_50th_Percentile",
+            "description": "MagicList 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "MagicList_75th_Percentile",
+            "description": "MagicList 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "MagicList_95th_Percentile",
+            "description": "MagicList 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "MagicList_99th_Percentile",
+            "description": "MagicList 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "MagicList_999th_Percentile",
+            "description": "MagicList 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "MagicList_Max",
+            "description": "MagicList Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.magic:name=getMagicPhoto,type=MagicResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "MagicPhoto_50th_Percentile",
+            "description": "MagicPhoto 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "MagicPhoto_75th_Percentile",
+            "description": "MagicPhoto 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "MagicPhoto_95th_Percentile",
+            "description": "MagicPhoto 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "MagicPhoto_99th_Percentile",
+            "description": "MagicPhoto 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "MagicPhoto_999th_Percentile",
+            "description": "MagicPhoto 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "MagicPhoto_Max",
+            "description": "MagicPhoto Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

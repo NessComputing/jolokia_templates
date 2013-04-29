@@ -1,0 +1,60 @@
+{
+  "name": "frontdoor",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.frontdoor:name=lookup,type=FrontdoorHandler",
+      ResponseStatistics Lookup
+    },
+
+    {
+      "mbean": "ness.frontdoor:name=not-found,type=FrontdoorHandler",
+      "attributes": [
+        {
+          "name": "NotFound",
+          "graph": {
+            "name": "Not_Found",
+            "description": "Not Found",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.frontdoor.batch:name=batch-requests,type=BatchRequestHandler",
+      "attributes": [
+        {
+          "name": "BatchRequests",
+          "graph": {
+            "name": "Batch_Requests",
+            "description": "Batch Requests",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.frontdoor.registry:name=num-available-services,type=LocalServiceRegistry",
+      "attributes": [
+        {
+          "name": "AvailableServices",
+          "graph": {
+            "name": "Available_Services",
+            "description": "Available_Services",
+            "units": "objects",
+            "type": "uint32"
+          }
+        }
+      ]
+    }
+
+  ]
+}
+
