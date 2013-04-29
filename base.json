@@ -65,15 +65,6 @@
             "units": "threads",
             "type": "uint32"
           }
-        },
-        {
-          "name": "PeakThreadCount",
-          "graph": {
-            "name": "Peak_Thread_Count",
-            "description": "Peak Thread Count",
-            "units": "threads",
-            "type": "uint32"
-          }
         }
       ]
     },
