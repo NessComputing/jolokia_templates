@@ -9,7 +9,7 @@
   , "EventDashboard": null
   , "FacebookCropper": null
   , "FacebookFc2": "base"
-  , "FlagServer": "base"
+  , "FlagServer": "flag"
   , "FollowServer": null
   , "Frontdoor": "frontdoor"
   , "Haproxy": null

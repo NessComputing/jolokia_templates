@@ -1,0 +1,41 @@
+{
+  "name": "flag",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.flag:name=handleRequest,type=FlagResource",
+      ResponseStatistics Create
+    },
+
+    {
+      "mbean": "ness.flag:name=getFlagsOnTarget,type=FlagResource",
+      ResponseStatistics Target
+    },
+
+    {
+      "mbean": "ness.flag:name=getFlagsOnTargetForAccount,type=FlagResource",
+      ResponseStatistics TargetAccount
+    },
+
+    {
+      "mbean": "ness.flag:name=getFlagsOnTargetForAccountWithType,type=FlagResource",
+      ResponseStatistics TargetAccountType
+    },
+
+    {
+      "mbean": "ness.flag:name=putFlag,type=FlagResource",
+      ResponseStatistics Update
+    },
+
+    {
+      "mbean": "ness.flag:name=removeFlag,type=FlagResource",
+      ResponseStatistics Delete
+    },
+
+    {
+      "mbean": "ness.flag:name=runQuery,type=FlagResource",
+      ResponseStatistics Query
+    }
+ ]
+}
