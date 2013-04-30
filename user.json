@@ -1,0 +1,357 @@
+{
+  "name": "user",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.user:name=loadAccounts,type=UserClient",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "LoadAccounts_50th_Percentile",
+            "description": "LoadAccounts 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "LoadAccounts_75th_Percentile",
+            "description": "LoadAccounts 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "LoadAccounts_95th_Percentile",
+            "description": "LoadAccounts 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "LoadAccounts_99th_Percentile",
+            "description": "LoadAccounts 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "LoadAccounts_999th_Percentile",
+            "description": "LoadAccounts 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "LoadAccounts_Count",
+            "description": "LoadAccounts Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "LoadAccounts_Max",
+            "description": "LoadAccounts Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=loadAccountsBySourceId,type=UserClient",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "LoadBySourceId_50th_Percentile",
+            "description": "LoadBySourceId 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "LoadBySourceId_75th_Percentile",
+            "description": "LoadBySourceId 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "LoadBySourceId_95th_Percentile",
+            "description": "LoadBySourceId 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "LoadBySourceId_99th_Percentile",
+            "description": "LoadBySourceId 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "LoadBySourceId_999th_Percentile",
+            "description": "LoadBySourceId 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "LoadBySourceId_Count",
+            "description": "LoadBySourceId Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "LoadBySourceId_Max",
+            "description": "LoadBySourceId Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=loadUsersForAccounts,type=UserClient",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UsersForAccounts_50th_Percentile",
+            "description": "UsersForAccounts 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UsersForAccounts_75th_Percentile",
+            "description": "UsersForAccounts 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UsersForAccounts_95th_Percentile",
+            "description": "UsersForAccounts 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UsersForAccounts_99th_Percentile",
+            "description": "UsersForAccounts 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UsersForAccounts_999th_Percentile",
+            "description": "UsersForAccounts 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "UsersForAccounts_Count",
+            "description": "UsersForAccounts Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UsersForAccounts_Max",
+            "description": "UsersForAccounts Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=store,type=UserController",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Store_50th_Percentile",
+            "description": "Store 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Store_75th_Percentile",
+            "description": "Store 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Store_95th_Percentile",
+            "description": "Store 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Store_99th_Percentile",
+            "description": "Store 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Store_999th_Percentile",
+            "description": "Store 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Store_Count",
+            "description": "Store Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Store_Max",
+            "description": "Store Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=loadToFriendSourceAccountIdsMap,type=UserController",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FriendsMap_50th_Percentile",
+            "description": "FriendsMap 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FriendsMap_75th_Percentile",
+            "description": "FriendsMap 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FriendsMap_95th_Percentile",
+            "description": "FriendsMap 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FriendsMap_99th_Percentile",
+            "description": "FriendsMap 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FriendsMap_999th_Percentile",
+            "description": "FriendsMap 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FriendsMap_Count",
+            "description": "FriendsMap Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FriendsMap_Max",
+            "description": "FriendsMap Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+
+ ]
+}

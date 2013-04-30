@@ -1,0 +1,32 @@
+{
+  "name": "user",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.user:name=loadAccounts,type=UserClient",
+      ResponseStatistics LoadAccounts
+    },
+
+    {
+      "mbean": "ness.user:name=loadAccountsBySourceId,type=UserClient",
+      ResponseStatistics LoadBySourceId
+    },
+
+    {
+      "mbean": "ness.user:name=loadUsersForAccounts,type=UserClient",
+      ResponseStatistics UsersForAccounts
+    },
+
+    {
+      "mbean": "ness.user:name=store,type=UserController",
+      ResponseStatistics Store
+    },
+
+    {
+      "mbean": "ness.user:name=loadToFriendSourceAccountIdsMap,type=UserController",
+      ResponseStatistics FriendsMap
+    }
+
+ ]
+}
