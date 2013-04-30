@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "Search_Count",
+            "description": "Search Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "Search_Max",

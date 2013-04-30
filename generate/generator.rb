@@ -47,6 +47,16 @@ def generate()
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "<Title>_Count",
+            "description": "<Title> Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "<Title>_Max",

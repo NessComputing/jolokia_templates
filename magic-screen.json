@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "MagicList_Count",
+            "description": "MagicList Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "MagicList_Max",
@@ -109,6 +119,16 @@
             "description": "MagicPhoto 999th Percentile",
             "units": "ms",
             "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "MagicPhoto_Count",
+            "description": "MagicPhoto Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
           }
         },
         {

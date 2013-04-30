@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "Recommendations_Count",
+            "description": "Recommendations Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "Recommendations_Max",
@@ -109,6 +119,16 @@
             "description": "Confidences 999th Percentile",
             "units": "ms",
             "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Confidences_Count",
+            "description": "Confidences Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
           }
         },
         {
@@ -172,6 +192,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "CuisineSimilarity_Count",
+            "description": "CuisineSimilarity Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "CuisineSimilarity_Max",
@@ -232,6 +262,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "UserState_Count",
+            "description": "UserState Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "UserState_Max",
@@ -289,6 +329,16 @@
             "description": "PlaceExplanations 999th Percentile",
             "units": "ms",
             "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PlaceExplanations_Count",
+            "description": "PlaceExplanations Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
           }
         },
         {

@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "QueryWait_Count",
+            "description": "QueryWait Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "QueryWait_Max",
@@ -109,6 +119,16 @@
             "description": "StoreWait 999th Percentile",
             "units": "ms",
             "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "StoreWait_Count",
+            "description": "StoreWait Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
           }
         },
         {

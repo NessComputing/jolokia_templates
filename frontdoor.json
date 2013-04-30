@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "Lookup_Count",
+            "description": "Lookup Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "Lookup_Max",

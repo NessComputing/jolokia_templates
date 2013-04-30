@@ -52,6 +52,16 @@
           }
         },
         {
+          "name": "Count",
+          "graph": {
+            "name": "CreateRecommender_Count",
+            "description": "CreateRecommender Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
           "name": "Max",
           "graph": {
             "name": "CreateRecommender_Max",
@@ -109,6 +119,16 @@
             "description": "LoadRecommender 999th Percentile",
             "units": "ms",
             "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "LoadRecommender_Count",
+            "description": "LoadRecommender Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
           }
         },
         {
