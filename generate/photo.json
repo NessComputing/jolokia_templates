@@ -4,37 +4,37 @@
   "mappings": [
   
     {
-      "mbean": "ness.user:name=createPhoto,type=PhotoApiResource",
+      "mbean": "ness.photo:name=createPhoto,type=PhotoApiResource",
       ResponseStatistics CreatePhoto
     },
 
     {
-      "mbean": "ness.user:name=doQuery,type=PhotoApiResource",
+      "mbean": "ness.photo:name=doQuery,type=PhotoApiResource",
       ResponseStatistics Query
     },
 
     {
-      "mbean": "ness.user:name=getCardPhotosForTargetIds,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getCardPhotosForTargetIds,type=PhotoApiResource",
       ResponseStatistics CardPhotos
     },
 
     {
-      "mbean": "ness.user:name=getMapping,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getMapping,type=PhotoApiResource",
       ResponseStatistics PhotoMapping
     },
 
     {
-      "mbean": "ness.user:name=getPhotoBySourceId,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getPhotoBySourceId,type=PhotoApiResource",
       ResponseStatistics PhotoBySource
     },
 
     {
-      "mbean": "ness.user:name=getPhotoGallery,type=PhotoGalleryApiResource",
+      "mbean": "ness.photo:name=getPhotoGallery,type=PhotoGalleryApiResource",
       ResponseStatistics PhotoGallery
     },
 
     {
-      "mbean": "ness.user:name=createLink,type=PhotoGalleryApiResource",
+      "mbean": "ness.photo:name=createLink,type=PhotoGalleryApiResource",
       ResponseStatistics CreateLink
     }
  ]

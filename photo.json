@@ -4,7 +4,7 @@
   "mappings": [
   
     {
-      "mbean": "ness.user:name=createPhoto,type=PhotoApiResource",
+      "mbean": "ness.photo:name=createPhoto,type=PhotoApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -74,7 +74,7 @@
     },
 
     {
-      "mbean": "ness.user:name=doQuery,type=PhotoApiResource",
+      "mbean": "ness.photo:name=doQuery,type=PhotoApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -144,7 +144,7 @@
     },
 
     {
-      "mbean": "ness.user:name=getCardPhotosForTargetIds,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getCardPhotosForTargetIds,type=PhotoApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -214,7 +214,7 @@
     },
 
     {
-      "mbean": "ness.user:name=getMapping,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getMapping,type=PhotoApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -284,7 +284,7 @@
     },
 
     {
-      "mbean": "ness.user:name=getPhotoBySourceId,type=PhotoApiResource",
+      "mbean": "ness.photo:name=getPhotoBySourceId,type=PhotoApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -354,7 +354,7 @@
     },
 
     {
-      "mbean": "ness.user:name=getPhotoGallery,type=PhotoGalleryApiResource",
+      "mbean": "ness.photo:name=getPhotoGallery,type=PhotoGalleryApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -424,7 +424,7 @@
     },
 
     {
-      "mbean": "ness.user:name=createLink,type=PhotoGalleryApiResource",
+      "mbean": "ness.photo:name=createLink,type=PhotoGalleryApiResource",
       "attributes": [
         {
           "name": "50thPercentile",
