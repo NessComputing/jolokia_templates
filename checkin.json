@@ -1,0 +1,175 @@
+{
+  "name": "checkin",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.checkin:name=queryWait,type=controller",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "QueryWait_50th_Percentile",
+            "description": "QueryWait 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "QueryWait_75th_Percentile",
+            "description": "QueryWait 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "QueryWait_95th_Percentile",
+            "description": "QueryWait 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "QueryWait_99th_Percentile",
+            "description": "QueryWait 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "QueryWait_999th_Percentile",
+            "description": "QueryWait 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "QueryWait_Max",
+            "description": "QueryWait Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.checkin:name=storeWait,type=controller",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "StoreWait_50th_Percentile",
+            "description": "StoreWait 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "StoreWait_75th_Percentile",
+            "description": "StoreWait 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "StoreWait_95th_Percentile",
+            "description": "StoreWait 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "StoreWait_99th_Percentile",
+            "description": "StoreWait 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "StoreWait_999th_Percentile",
+            "description": "StoreWait 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "StoreWait_Max",
+            "description": "StoreWait Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "ness.checkin:name=checkinInserts,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Insert_Count",
+            "description": "Insert Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.checkin:name=checkinUpdates,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Update_Count",
+            "description": "Update Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.checkin:name=checkinReads,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Read_Count",
+            "description": "Read Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    }
+  ]
+}
+

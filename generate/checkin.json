@@ -1,0 +1,65 @@
+{
+  "name": "checkin",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.checkin:name=queryWait,type=controller",
+      ResponseStatistics QueryWait
+    },
+  
+    {
+      "mbean": "ness.checkin:name=storeWait,type=controller",
+      ResponseStatistics StoreWait
+    },
+ 
+    {
+      "mbean": "ness.checkin:name=checkinInserts,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Insert_Count",
+            "description": "Insert Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.checkin:name=checkinUpdates,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Update_Count",
+            "description": "Update Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.checkin:name=checkinReads,type=controller",
+      "attributes": [
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Read_Count",
+            "description": "Read Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        }
+      ]
+    }
+  ]
+}
+
