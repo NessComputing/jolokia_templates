@@ -1,0 +1,36 @@
+{
+  "name": "newsfeed",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=CheckinItemProvider",
+      ResponseStatistics EntityCheckins
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=CheckinItemProvider",
+      ResponseStatistics UserCheckins
+    },
+
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=MessageItemProvider",
+      ResponseStatistics EntityMessages
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=MessageItemProvider",
+      ResponseStatistics UserMessages
+    },
+
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=RatingItemProvider",
+      ResponseStatistics EntityRatings
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=RatingItemProvider",
+      ResponseStatistics UserRatings
+    }
+ ]
+}

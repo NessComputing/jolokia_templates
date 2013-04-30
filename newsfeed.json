@@ -1,0 +1,426 @@
+{
+  "name": "newsfeed",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=CheckinItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "EntityCheckins_50th_Percentile",
+            "description": "EntityCheckins 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "EntityCheckins_75th_Percentile",
+            "description": "EntityCheckins 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "EntityCheckins_95th_Percentile",
+            "description": "EntityCheckins 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "EntityCheckins_99th_Percentile",
+            "description": "EntityCheckins 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "EntityCheckins_999th_Percentile",
+            "description": "EntityCheckins 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "EntityCheckins_Count",
+            "description": "EntityCheckins Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "EntityCheckins_Max",
+            "description": "EntityCheckins Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=CheckinItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UserCheckins_50th_Percentile",
+            "description": "UserCheckins 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UserCheckins_75th_Percentile",
+            "description": "UserCheckins 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UserCheckins_95th_Percentile",
+            "description": "UserCheckins 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UserCheckins_99th_Percentile",
+            "description": "UserCheckins 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UserCheckins_999th_Percentile",
+            "description": "UserCheckins 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "UserCheckins_Count",
+            "description": "UserCheckins Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UserCheckins_Max",
+            "description": "UserCheckins Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=MessageItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "EntityMessages_50th_Percentile",
+            "description": "EntityMessages 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "EntityMessages_75th_Percentile",
+            "description": "EntityMessages 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "EntityMessages_95th_Percentile",
+            "description": "EntityMessages 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "EntityMessages_99th_Percentile",
+            "description": "EntityMessages 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "EntityMessages_999th_Percentile",
+            "description": "EntityMessages 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "EntityMessages_Count",
+            "description": "EntityMessages Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "EntityMessages_Max",
+            "description": "EntityMessages Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=MessageItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UserMessages_50th_Percentile",
+            "description": "UserMessages 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UserMessages_75th_Percentile",
+            "description": "UserMessages 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UserMessages_95th_Percentile",
+            "description": "UserMessages 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UserMessages_99th_Percentile",
+            "description": "UserMessages 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UserMessages_999th_Percentile",
+            "description": "UserMessages 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "UserMessages_Count",
+            "description": "UserMessages Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UserMessages_Max",
+            "description": "UserMessages Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForEntities,type=RatingItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "EntityRatings_50th_Percentile",
+            "description": "EntityRatings 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "EntityRatings_75th_Percentile",
+            "description": "EntityRatings 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "EntityRatings_95th_Percentile",
+            "description": "EntityRatings 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "EntityRatings_99th_Percentile",
+            "description": "EntityRatings 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "EntityRatings_999th_Percentile",
+            "description": "EntityRatings 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "EntityRatings_Count",
+            "description": "EntityRatings Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "EntityRatings_Max",
+            "description": "EntityRatings Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=RatingItemProvider",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UserRatings_50th_Percentile",
+            "description": "UserRatings 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UserRatings_75th_Percentile",
+            "description": "UserRatings 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UserRatings_95th_Percentile",
+            "description": "UserRatings 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UserRatings_99th_Percentile",
+            "description": "UserRatings 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UserRatings_999th_Percentile",
+            "description": "UserRatings 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "UserRatings_Count",
+            "description": "UserRatings Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UserRatings_Max",
+            "description": "UserRatings Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+ ]
+}

@@ -17,7 +17,7 @@
   , "JsonApi": null
   , "MagicScreen": "magic-screen"
   , "MessageServer": null
-  , "NewsfeedServer": "base"
+  , "NewsfeedServer": "newsfeed"
   , "NotificationServer": null
   , "OpengraphSyndicationServer": "base"
   , "PhotoServer": "photo"
