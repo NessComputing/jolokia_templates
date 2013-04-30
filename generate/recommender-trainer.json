@@ -4,12 +4,12 @@
   "mappings": [
   
     {
-      "mbean": "io.trumpet.recommender:name=createRecommender,type=controller",
+      "mbean": "io.trumpet.recommender:name=loadRecommender,type=controller",
       ResponseStatistics CreateRecommender
     },
  
     {
-      "mbean": "io.trumpet.recommender:name=loadRecommender,type=RecommenderTrainerResource",
+      "mbean": "io.trumpet.recommender:name=getTrainedRecommender,type=RecommenderTrainerResource",
       ResponseStatistics LoadRecommender
     }
  ]
