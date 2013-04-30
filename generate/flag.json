@@ -5,37 +5,22 @@
   
     {
       "mbean": "ness.flag:name=handleRequest,type=FlagResource",
-      ResponseStatistics Create
+      ResponseStatistics HandleRequest
     },
 
     {
-      "mbean": "ness.flag:name=getFlagsOnTarget,type=FlagResource",
-      ResponseStatistics Target
+      "mbean": "ness.flag.dao:name=store,type=FlagController",
+      ResponseStatistics Store
     },
 
     {
-      "mbean": "ness.flag:name=getFlagsOnTargetForAccount,type=FlagResource",
-      ResponseStatistics TargetAccount
-    },
-
-    {
-      "mbean": "ness.flag:name=getFlagsOnTargetForAccountWithType,type=FlagResource",
-      ResponseStatistics TargetAccountType
-    },
-
-    {
-      "mbean": "ness.flag:name=putFlag,type=FlagResource",
-      ResponseStatistics Update
-    },
-
-    {
-      "mbean": "ness.flag:name=removeFlag,type=FlagResource",
-      ResponseStatistics Delete
-    },
-
-    {
-      "mbean": "ness.flag:name=runQuery,type=FlagResource",
+      "mbean": "ness.flag.dao:name=doQuery,type=FlagController",
       ResponseStatistics Query
+    },
+
+    {
+      "mbean": "ness.flag.dao:name=approximateCount,type=FlagController",
+      ResponseStatistics ApproxCount
     }
  ]
 }

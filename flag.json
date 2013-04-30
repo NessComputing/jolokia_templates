@@ -9,8 +9,8 @@
         {
           "name": "50thPercentile",
           "graph": {
-            "name": "Create_50th_Percentile",
-            "description": "Create 50th Percentile",
+            "name": "HandleRequest_50th_Percentile",
+            "description": "HandleRequest 50th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -18,8 +18,8 @@
         {
           "name": "75thPercentile",
           "graph": {
-            "name": "Create_75th_Percentile",
-            "description": "Create 75th Percentile",
+            "name": "HandleRequest_75th_Percentile",
+            "description": "HandleRequest 75th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -27,8 +27,8 @@
         {
           "name": "95thPercentile",
           "graph": {
-            "name": "Create_95th_Percentile",
-            "description": "Create 95th Percentile",
+            "name": "HandleRequest_95th_Percentile",
+            "description": "HandleRequest 95th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -36,8 +36,8 @@
         {
           "name": "99thPercentile",
           "graph": {
-            "name": "Create_99th_Percentile",
-            "description": "Create 99th Percentile",
+            "name": "HandleRequest_99th_Percentile",
+            "description": "HandleRequest 99th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -45,8 +45,8 @@
         {
           "name": "999thPercentile",
           "graph": {
-            "name": "Create_999th_Percentile",
-            "description": "Create 999th Percentile",
+            "name": "HandleRequest_999th_Percentile",
+            "description": "HandleRequest 999th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -54,8 +54,8 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Create_Count",
-            "description": "Create Count",
+            "name": "HandleRequest_Count",
+            "description": "HandleRequest Count",
             "units": "objects",
             "type": "uint32",
             "slope": "positive"
@@ -64,8 +64,8 @@
         {
           "name": "Max",
           "graph": {
-            "name": "Create_Max",
-            "description": "Create Max",
+            "name": "HandleRequest_Max",
+            "description": "HandleRequest Max",
             "units": "ms",
             "type": "float"
           }
@@ -74,13 +74,13 @@
     },
 
     {
-      "mbean": "ness.flag:name=getFlagsOnTarget,type=FlagResource",
+      "mbean": "ness.flag.dao:name=store,type=FlagController",
       "attributes": [
         {
           "name": "50thPercentile",
           "graph": {
-            "name": "Target_50th_Percentile",
-            "description": "Target 50th Percentile",
+            "name": "Store_50th_Percentile",
+            "description": "Store 50th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -88,8 +88,8 @@
         {
           "name": "75thPercentile",
           "graph": {
-            "name": "Target_75th_Percentile",
-            "description": "Target 75th Percentile",
+            "name": "Store_75th_Percentile",
+            "description": "Store 75th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -97,8 +97,8 @@
         {
           "name": "95thPercentile",
           "graph": {
-            "name": "Target_95th_Percentile",
-            "description": "Target 95th Percentile",
+            "name": "Store_95th_Percentile",
+            "description": "Store 95th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -106,8 +106,8 @@
         {
           "name": "99thPercentile",
           "graph": {
-            "name": "Target_99th_Percentile",
-            "description": "Target 99th Percentile",
+            "name": "Store_99th_Percentile",
+            "description": "Store 99th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -115,8 +115,8 @@
         {
           "name": "999thPercentile",
           "graph": {
-            "name": "Target_999th_Percentile",
-            "description": "Target 999th Percentile",
+            "name": "Store_999th_Percentile",
+            "description": "Store 999th Percentile",
             "units": "ms",
             "type": "float"
           }
@@ -124,8 +124,8 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Target_Count",
-            "description": "Target Count",
+            "name": "Store_Count",
+            "description": "Store Count",
             "units": "objects",
             "type": "uint32",
             "slope": "positive"
@@ -134,8 +134,8 @@
         {
           "name": "Max",
           "graph": {
-            "name": "Target_Max",
-            "description": "Target Max",
+            "name": "Store_Max",
+            "description": "Store Max",
             "units": "ms",
             "type": "float"
           }
@@ -144,287 +144,7 @@
     },
 
     {
-      "mbean": "ness.flag:name=getFlagsOnTargetForAccount,type=FlagResource",
-      "attributes": [
-        {
-          "name": "50thPercentile",
-          "graph": {
-            "name": "TargetAccount_50th_Percentile",
-            "description": "TargetAccount 50th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "75thPercentile",
-          "graph": {
-            "name": "TargetAccount_75th_Percentile",
-            "description": "TargetAccount 75th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "95thPercentile",
-          "graph": {
-            "name": "TargetAccount_95th_Percentile",
-            "description": "TargetAccount 95th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "99thPercentile",
-          "graph": {
-            "name": "TargetAccount_99th_Percentile",
-            "description": "TargetAccount 99th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "999thPercentile",
-          "graph": {
-            "name": "TargetAccount_999th_Percentile",
-            "description": "TargetAccount 999th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "Count",
-          "graph": {
-            "name": "TargetAccount_Count",
-            "description": "TargetAccount Count",
-            "units": "objects",
-            "type": "uint32",
-            "slope": "positive"
-          }
-        },
-        {
-          "name": "Max",
-          "graph": {
-            "name": "TargetAccount_Max",
-            "description": "TargetAccount Max",
-            "units": "ms",
-            "type": "float"
-          }
-        }
-      ]
-    },
-
-    {
-      "mbean": "ness.flag:name=getFlagsOnTargetForAccountWithType,type=FlagResource",
-      "attributes": [
-        {
-          "name": "50thPercentile",
-          "graph": {
-            "name": "TargetAccountType_50th_Percentile",
-            "description": "TargetAccountType 50th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "75thPercentile",
-          "graph": {
-            "name": "TargetAccountType_75th_Percentile",
-            "description": "TargetAccountType 75th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "95thPercentile",
-          "graph": {
-            "name": "TargetAccountType_95th_Percentile",
-            "description": "TargetAccountType 95th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "99thPercentile",
-          "graph": {
-            "name": "TargetAccountType_99th_Percentile",
-            "description": "TargetAccountType 99th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "999thPercentile",
-          "graph": {
-            "name": "TargetAccountType_999th_Percentile",
-            "description": "TargetAccountType 999th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "Count",
-          "graph": {
-            "name": "TargetAccountType_Count",
-            "description": "TargetAccountType Count",
-            "units": "objects",
-            "type": "uint32",
-            "slope": "positive"
-          }
-        },
-        {
-          "name": "Max",
-          "graph": {
-            "name": "TargetAccountType_Max",
-            "description": "TargetAccountType Max",
-            "units": "ms",
-            "type": "float"
-          }
-        }
-      ]
-    },
-
-    {
-      "mbean": "ness.flag:name=putFlag,type=FlagResource",
-      "attributes": [
-        {
-          "name": "50thPercentile",
-          "graph": {
-            "name": "Update_50th_Percentile",
-            "description": "Update 50th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "75thPercentile",
-          "graph": {
-            "name": "Update_75th_Percentile",
-            "description": "Update 75th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "95thPercentile",
-          "graph": {
-            "name": "Update_95th_Percentile",
-            "description": "Update 95th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "99thPercentile",
-          "graph": {
-            "name": "Update_99th_Percentile",
-            "description": "Update 99th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "999thPercentile",
-          "graph": {
-            "name": "Update_999th_Percentile",
-            "description": "Update 999th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "Count",
-          "graph": {
-            "name": "Update_Count",
-            "description": "Update Count",
-            "units": "objects",
-            "type": "uint32",
-            "slope": "positive"
-          }
-        },
-        {
-          "name": "Max",
-          "graph": {
-            "name": "Update_Max",
-            "description": "Update Max",
-            "units": "ms",
-            "type": "float"
-          }
-        }
-      ]
-    },
-
-    {
-      "mbean": "ness.flag:name=removeFlag,type=FlagResource",
-      "attributes": [
-        {
-          "name": "50thPercentile",
-          "graph": {
-            "name": "Delete_50th_Percentile",
-            "description": "Delete 50th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "75thPercentile",
-          "graph": {
-            "name": "Delete_75th_Percentile",
-            "description": "Delete 75th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "95thPercentile",
-          "graph": {
-            "name": "Delete_95th_Percentile",
-            "description": "Delete 95th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "99thPercentile",
-          "graph": {
-            "name": "Delete_99th_Percentile",
-            "description": "Delete 99th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "999thPercentile",
-          "graph": {
-            "name": "Delete_999th_Percentile",
-            "description": "Delete 999th Percentile",
-            "units": "ms",
-            "type": "float"
-          }
-        },
-        {
-          "name": "Count",
-          "graph": {
-            "name": "Delete_Count",
-            "description": "Delete Count",
-            "units": "objects",
-            "type": "uint32",
-            "slope": "positive"
-          }
-        },
-        {
-          "name": "Max",
-          "graph": {
-            "name": "Delete_Max",
-            "description": "Delete Max",
-            "units": "ms",
-            "type": "float"
-          }
-        }
-      ]
-    },
-
-    {
-      "mbean": "ness.flag:name=runQuery,type=FlagResource",
+      "mbean": "ness.flag.dao:name=doQuery,type=FlagController",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -486,6 +206,76 @@
           "graph": {
             "name": "Query_Max",
             "description": "Query Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.flag.dao:name=approximateCount,type=FlagController",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "ApproxCount_50th_Percentile",
+            "description": "ApproxCount 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "ApproxCount_75th_Percentile",
+            "description": "ApproxCount 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "ApproxCount_95th_Percentile",
+            "description": "ApproxCount 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "ApproxCount_99th_Percentile",
+            "description": "ApproxCount 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "ApproxCount_999th_Percentile",
+            "description": "ApproxCount 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "ApproxCount_Count",
+            "description": "ApproxCount Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "ApproxCount_Max",
+            "description": "ApproxCount Max",
             "units": "ms",
             "type": "float"
           }

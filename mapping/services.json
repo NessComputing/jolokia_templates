@@ -16,7 +16,7 @@
   , "Instagram": null
   , "JsonApi": null
   , "MagicScreen": "magic-screen"
-  , "MessageServer": null
+  , "MessageServer": "message"
   , "NewsfeedServer": "newsfeed"
   , "NotificationServer": null
   , "OpengraphSyndicationServer": "base"

@@ -1,0 +1,16 @@
+{
+  "name": "message",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.flag:name=handleRequest,type=MessageResource",
+      ResponseStatistics HandleRequest
+    },
+
+    {
+      "mbean": "ness.flag.dao:name=handleQuery,type=MessageResource",
+      ResponseStatistics Query
+    }
+ ]
+}
