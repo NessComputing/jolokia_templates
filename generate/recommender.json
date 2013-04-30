@@ -14,16 +14,6 @@
     },
  
     {
-      "mbean": "io.trumpet.recommender:name=getItemSimilarity,type=RecommenderResource",
-      ResponseStatistics ItemSimilarity
-    },
- 
-    {
-      "mbean": "io.trumpet.recommender:name=getUserSimilarity,type=RecommenderResource",
-      ResponseStatistics UserSimilarity
-    },
- 
-    {
       "mbean": "io.trumpet.recommender:name=getCuisineSimilarity,type=RecommenderResource",
       ResponseStatistics CuisineSimilarity
     },
