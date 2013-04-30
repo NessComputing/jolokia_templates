@@ -1,0 +1,16 @@
+{
+  "name": "recommender-trainer",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.recommender:name=createReccommender,type=controller",
+      ResponseStatistics CreateRecommender
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=loadReccommender,type=RecommenderTrainerResource",
+      ResponseStatistics LoadRecommender
+    }
+ ]
+}

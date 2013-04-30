@@ -1,0 +1,41 @@
+{
+  "name": "recommender",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.recommender:name=getReccommendations,type=RecommenderResource",
+      ResponseStatistics Recommendations
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getConfidence,type=RecommenderResource",
+      ResponseStatistics Confidences
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getItemSimilarity,type=RecommenderResource",
+      ResponseStatistics ItemSimilarity
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getUserSimilarity,type=RecommenderResource",
+      ResponseStatistics UserSimilarity
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getCusineSimilarity,type=RecommenderResource",
+      ResponseStatistics CuisineSimilarity
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getUserState,type=RecommenderResource",
+      ResponseStatistics UserState
+    },
+
+    {
+      "mbean": "io.trumpet.recommender:name=getPlaceExplanations,type=RecommenderResourceV2",
+      ResponseStatistics PlaceExplanations
+    }
+ ]
+}

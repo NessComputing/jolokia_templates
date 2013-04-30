@@ -1,0 +1,426 @@
+{
+  "name": "recommender",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.recommender:name=getReccommendations,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Recommendations_50th_Percentile",
+            "description": "Recommendations 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Recommendations_75th_Percentile",
+            "description": "Recommendations 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Recommendations_95th_Percentile",
+            "description": "Recommendations 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Recommendations_99th_Percentile",
+            "description": "Recommendations 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Recommendations_999th_Percentile",
+            "description": "Recommendations 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Recommendations_Max",
+            "description": "Recommendations Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getConfidence,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Confidences_50th_Percentile",
+            "description": "Confidences 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Confidences_75th_Percentile",
+            "description": "Confidences 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Confidences_95th_Percentile",
+            "description": "Confidences 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Confidences_99th_Percentile",
+            "description": "Confidences 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Confidences_999th_Percentile",
+            "description": "Confidences 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Confidences_Max",
+            "description": "Confidences Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getItemSimilarity,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "ItemSimilarity_50th_Percentile",
+            "description": "ItemSimilarity 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "ItemSimilarity_75th_Percentile",
+            "description": "ItemSimilarity 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "ItemSimilarity_95th_Percentile",
+            "description": "ItemSimilarity 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "ItemSimilarity_99th_Percentile",
+            "description": "ItemSimilarity 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "ItemSimilarity_999th_Percentile",
+            "description": "ItemSimilarity 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "ItemSimilarity_Max",
+            "description": "ItemSimilarity Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getUserSimilarity,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UserSimilarity_50th_Percentile",
+            "description": "UserSimilarity 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UserSimilarity_75th_Percentile",
+            "description": "UserSimilarity 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UserSimilarity_95th_Percentile",
+            "description": "UserSimilarity 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UserSimilarity_99th_Percentile",
+            "description": "UserSimilarity 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UserSimilarity_999th_Percentile",
+            "description": "UserSimilarity 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UserSimilarity_Max",
+            "description": "UserSimilarity Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getCusineSimilarity,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CuisineSimilarity_50th_Percentile",
+            "description": "CuisineSimilarity 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CuisineSimilarity_75th_Percentile",
+            "description": "CuisineSimilarity 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CuisineSimilarity_95th_Percentile",
+            "description": "CuisineSimilarity 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CuisineSimilarity_99th_Percentile",
+            "description": "CuisineSimilarity 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CuisineSimilarity_999th_Percentile",
+            "description": "CuisineSimilarity 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CuisineSimilarity_Max",
+            "description": "CuisineSimilarity Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=getUserState,type=RecommenderResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UserState_50th_Percentile",
+            "description": "UserState 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UserState_75th_Percentile",
+            "description": "UserState 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UserState_95th_Percentile",
+            "description": "UserState 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UserState_99th_Percentile",
+            "description": "UserState 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UserState_999th_Percentile",
+            "description": "UserState 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UserState_Max",
+            "description": "UserState Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.recommender:name=getPlaceExplanations,type=RecommenderResourceV2",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PlaceExplanations_50th_Percentile",
+            "description": "PlaceExplanations 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PlaceExplanations_75th_Percentile",
+            "description": "PlaceExplanations 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PlaceExplanations_95th_Percentile",
+            "description": "PlaceExplanations 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PlaceExplanations_99th_Percentile",
+            "description": "PlaceExplanations 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PlaceExplanations_999th_Percentile",
+            "description": "PlaceExplanations 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PlaceExplanations_Max",
+            "description": "PlaceExplanations Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+ ]
+}

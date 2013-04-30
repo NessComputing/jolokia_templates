@@ -28,8 +28,8 @@
   , "QuickviteServer": null
   , "RatingHistogramService": "base"
   , "RatingServer": "base"
-  , "RecommenderServer": "base"
-  , "RecommenderTrainerServer": "base"
+  , "RecommenderServer": "recommender"
+  , "RecommenderTrainerServer": "recommender-trainer"
   , "S3UploadSigner": null
   , "SearchCore": "search-core"
   , "SearchIndexing": "base"

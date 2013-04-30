@@ -1,0 +1,126 @@
+{
+  "name": "recommender-trainer",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.recommender:name=createReccommender,type=controller",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CreateRecommender_50th_Percentile",
+            "description": "CreateRecommender 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CreateRecommender_75th_Percentile",
+            "description": "CreateRecommender 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CreateRecommender_95th_Percentile",
+            "description": "CreateRecommender 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CreateRecommender_99th_Percentile",
+            "description": "CreateRecommender 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CreateRecommender_999th_Percentile",
+            "description": "CreateRecommender 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CreateRecommender_Max",
+            "description": "CreateRecommender Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+ 
+    {
+      "mbean": "io.trumpet.recommender:name=loadReccommender,type=RecommenderTrainerResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "LoadRecommender_50th_Percentile",
+            "description": "LoadRecommender 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "LoadRecommender_75th_Percentile",
+            "description": "LoadRecommender 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "LoadRecommender_95th_Percentile",
+            "description": "LoadRecommender 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "LoadRecommender_99th_Percentile",
+            "description": "LoadRecommender 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "LoadRecommender_999th_Percentile",
+            "description": "LoadRecommender 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "LoadRecommender_Max",
+            "description": "LoadRecommender Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+ ]
+}
