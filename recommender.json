@@ -4,7 +4,7 @@
   "mappings": [
   
     {
-      "mbean": "io.trumpet.recommender:name=getReccommendations,type=RecommenderResource",
+      "mbean": "io.trumpet.recommender:name=getRecommendations,type=RecommenderResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -244,7 +244,7 @@
     },
  
     {
-      "mbean": "io.trumpet.recommender:name=getCusineSimilarity,type=RecommenderResource",
+      "mbean": "io.trumpet.recommender:name=getCuisineSimilarity,type=RecommenderResource",
       "attributes": [
         {
           "name": "50thPercentile",
