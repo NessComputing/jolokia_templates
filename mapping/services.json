@@ -20,7 +20,7 @@
   , "NewsfeedServer": "base"
   , "NotificationServer": null
   , "OpengraphSyndicationServer": "base"
-  , "PhotoServer": "base"
+  , "PhotoServer": "photo"
   , "PlaceConstraintModerationServer": "base"
   , "PlaceServer": "base"
   , "PlaceWeb": null
@@ -33,7 +33,7 @@
   , "S3UploadSigner": null
   , "SearchCore": "search-core"
   , "SearchIndexing": "base"
-  , "UserServer": "base"
+  , "UserServer": "user"
   , "WebEntityPageServer": null
   , "WorkQueueServer": "base"
 }

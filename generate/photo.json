@@ -1,0 +1,41 @@
+{
+  "name": "photo",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.user:name=createPhoto,type=PhotoApiResource",
+      ResponseStatistics CreatePhoto
+    },
+
+    {
+      "mbean": "ness.user:name=doQuery,type=PhotoApiResource",
+      ResponseStatistics Query
+    },
+
+    {
+      "mbean": "ness.user:name=getCardPhotosForTargetIds,type=PhotoApiResource",
+      ResponseStatistics CardPhotos
+    },
+
+    {
+      "mbean": "ness.user:name=getMapping,type=PhotoApiResource",
+      ResponseStatistics PhotoMapping
+    },
+
+    {
+      "mbean": "ness.user:name=getPhotoBySourceId,type=PhotoApiResource",
+      ResponseStatistics PhotoBySource
+    },
+
+    {
+      "mbean": "ness.user:name=getPhotoGallery,type=PhotoGalleryApiResource",
+      ResponseStatistics PhotoGallery
+    },
+
+    {
+      "mbean": "ness.user:name=createLink,type=PhotoGalleryApiResource",
+      ResponseStatistics CreateLink
+    }
+ ]
+}

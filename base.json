@@ -8,8 +8,8 @@
         {
           "name": "CollectionCount",
           "graph": {
-            "name": "ConcurrentMarkSweep_Collection_Count",
-            "description": "Concurrent MarkSweep Collection Count",
+            "name": "CMS_Collection_Count",
+            "description": "CMS Collection Count",
             "units": "objects",
             "type": "uint32",
             "slope": "positive"
@@ -18,8 +18,8 @@
         {
           "name": "CollectionTime",
           "graph": {
-            "name": "ConcurrentMarkSweep_Collection_Time",
-            "description": "Concurrent MarkSweep Collection Time",
+            "name": "CMS_Collection_Time",
+            "description": "CMS Collection Time",
             "units": "seconds",
             "type": "uint32",
             "slope": "positive"

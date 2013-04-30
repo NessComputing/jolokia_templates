@@ -1,0 +1,496 @@
+{
+  "name": "photo",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.user:name=createPhoto,type=PhotoApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CreatePhoto_50th_Percentile",
+            "description": "CreatePhoto 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CreatePhoto_75th_Percentile",
+            "description": "CreatePhoto 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CreatePhoto_95th_Percentile",
+            "description": "CreatePhoto 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CreatePhoto_99th_Percentile",
+            "description": "CreatePhoto 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CreatePhoto_999th_Percentile",
+            "description": "CreatePhoto 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "CreatePhoto_Count",
+            "description": "CreatePhoto Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CreatePhoto_Max",
+            "description": "CreatePhoto Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=doQuery,type=PhotoApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Query_50th_Percentile",
+            "description": "Query 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Query_75th_Percentile",
+            "description": "Query 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Query_95th_Percentile",
+            "description": "Query 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Query_99th_Percentile",
+            "description": "Query 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Query_999th_Percentile",
+            "description": "Query 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Query_Count",
+            "description": "Query Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Query_Max",
+            "description": "Query Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=getCardPhotosForTargetIds,type=PhotoApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CardPhotos_50th_Percentile",
+            "description": "CardPhotos 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CardPhotos_75th_Percentile",
+            "description": "CardPhotos 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CardPhotos_95th_Percentile",
+            "description": "CardPhotos 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CardPhotos_99th_Percentile",
+            "description": "CardPhotos 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CardPhotos_999th_Percentile",
+            "description": "CardPhotos 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "CardPhotos_Count",
+            "description": "CardPhotos Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CardPhotos_Max",
+            "description": "CardPhotos Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=getMapping,type=PhotoApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PhotoMapping_50th_Percentile",
+            "description": "PhotoMapping 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PhotoMapping_75th_Percentile",
+            "description": "PhotoMapping 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PhotoMapping_95th_Percentile",
+            "description": "PhotoMapping 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PhotoMapping_99th_Percentile",
+            "description": "PhotoMapping 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PhotoMapping_999th_Percentile",
+            "description": "PhotoMapping 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PhotoMapping_Count",
+            "description": "PhotoMapping Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PhotoMapping_Max",
+            "description": "PhotoMapping Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=getPhotoBySourceId,type=PhotoApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PhotoBySource_50th_Percentile",
+            "description": "PhotoBySource 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PhotoBySource_75th_Percentile",
+            "description": "PhotoBySource 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PhotoBySource_95th_Percentile",
+            "description": "PhotoBySource 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PhotoBySource_99th_Percentile",
+            "description": "PhotoBySource 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PhotoBySource_999th_Percentile",
+            "description": "PhotoBySource 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PhotoBySource_Count",
+            "description": "PhotoBySource Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PhotoBySource_Max",
+            "description": "PhotoBySource Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=getPhotoGallery,type=PhotoGalleryApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PhotoGallery_50th_Percentile",
+            "description": "PhotoGallery 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PhotoGallery_75th_Percentile",
+            "description": "PhotoGallery 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PhotoGallery_95th_Percentile",
+            "description": "PhotoGallery 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PhotoGallery_99th_Percentile",
+            "description": "PhotoGallery 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PhotoGallery_999th_Percentile",
+            "description": "PhotoGallery 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PhotoGallery_Count",
+            "description": "PhotoGallery Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PhotoGallery_Max",
+            "description": "PhotoGallery Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.user:name=createLink,type=PhotoGalleryApiResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CreateLink_50th_Percentile",
+            "description": "CreateLink 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CreateLink_75th_Percentile",
+            "description": "CreateLink 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CreateLink_95th_Percentile",
+            "description": "CreateLink 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CreateLink_99th_Percentile",
+            "description": "CreateLink 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CreateLink_999th_Percentile",
+            "description": "CreateLink 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "CreateLink_Count",
+            "description": "CreateLink Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CreateLink_Max",
+            "description": "CreateLink Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+ ]
+}
