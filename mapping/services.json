@@ -2,7 +2,7 @@
     "ActivemqService": null
   , "BadgeServer": null
   , "Binshim": null
-  , "CheckinServer": "base"
+  , "CheckinServer": "checkin"
   , "DiscoveryServer": "base"
   , "Email": "base"
   , "EntityUpdateConsolidatedServer": "base"
