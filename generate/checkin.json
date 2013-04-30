@@ -46,7 +46,7 @@
     },
 
     {
-      "mbean": "ness.checkin:name=checkinReads,type=controller",
+      "mbean": "ness.checkin:name=checkinsRead,type=controller",
       "attributes": [
         {
           "name": "Count",
