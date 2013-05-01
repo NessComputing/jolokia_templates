@@ -1,0 +1,147 @@
+{
+  "name": "place",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.place.server:name=getQueryResource,type=BundleResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Query_50th_Percentile",
+            "description": "Query 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Query_75th_Percentile",
+            "description": "Query 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Query_95th_Percentile",
+            "description": "Query 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Query_99th_Percentile",
+            "description": "Query 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Query_999th_Percentile",
+            "description": "Query 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Query_Count",
+            "description": "Query Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Query_Max",
+            "description": "Query Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.place.server:name=entityQuery,type=EntityViewResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "EntityQuery_50th_Percentile",
+            "description": "EntityQuery 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "EntityQuery_75th_Percentile",
+            "description": "EntityQuery 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "EntityQuery_95th_Percentile",
+            "description": "EntityQuery 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "EntityQuery_99th_Percentile",
+            "description": "EntityQuery 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "EntityQuery_999th_Percentile",
+            "description": "EntityQuery 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "EntityQuery_Count",
+            "description": "EntityQuery Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "EntityQuery_Max",
+            "description": "EntityQuery Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}
+

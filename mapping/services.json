@@ -23,7 +23,7 @@
   , "OpengraphSyndicationServer": "base"
   , "PhotoServer": "photo"
   , "PlaceConstraintModerationServer": "base"
-  , "PlaceServer": "base"
+  , "PlaceServer": "place"
   , "PlaceWeb": null
   , "PostalServer": "base"
   , "QuickviteServer": null

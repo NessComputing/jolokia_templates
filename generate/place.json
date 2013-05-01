@@ -1,0 +1,17 @@
+{
+  "name": "place",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.place.server:name=getQueryResource,type=BundleResource",
+      ResponseStatistics Query
+    },
+
+    {
+      "mbean": "ness.place.server:name=entityQuery,type=EntityViewResource",
+      ResponseStatistics EntityQuery
+    }
+  ]
+}
+
