@@ -1,0 +1,27 @@
+{
+  "name": "rating-histogram",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.rating.histogram:name=getCheckinCountOfFriends,type=CheckinCountResource",
+      ResponseStatistics FriendCheckins
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getRatedPlacesOfFriends,type=RatedPlacesResource",
+      ResponseStatistics FriendPlaces
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getFriendRatingHistogram,type=RatingHistogramResource",
+      ResponseStatistics FriendHistogram
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getRatingHistogram,type=RatingHistogramResource",
+      ResponseStatistics RatingHistogram
+    }
+  ]
+}
+

@@ -27,7 +27,7 @@
   , "PlaceWeb": null
   , "PostalServer": "base"
   , "QuickviteServer": null
-  , "RatingHistogramService": "base"
+  , "RatingHistogramService": "rating-histogram"
   , "RatingServer": "rating"
   , "RecommenderServer": "recommender"
   , "RecommenderTrainerServer": "recommender-trainer"

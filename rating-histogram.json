@@ -1,0 +1,287 @@
+{
+  "name": "rating-histogram",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.rating.histogram:name=getCheckinCountOfFriends,type=CheckinCountResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FriendCheckins_50th_Percentile",
+            "description": "FriendCheckins 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FriendCheckins_75th_Percentile",
+            "description": "FriendCheckins 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FriendCheckins_95th_Percentile",
+            "description": "FriendCheckins 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FriendCheckins_99th_Percentile",
+            "description": "FriendCheckins 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FriendCheckins_999th_Percentile",
+            "description": "FriendCheckins 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FriendCheckins_Count",
+            "description": "FriendCheckins Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FriendCheckins_Max",
+            "description": "FriendCheckins Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getRatedPlacesOfFriends,type=RatedPlacesResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FriendPlaces_50th_Percentile",
+            "description": "FriendPlaces 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FriendPlaces_75th_Percentile",
+            "description": "FriendPlaces 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FriendPlaces_95th_Percentile",
+            "description": "FriendPlaces 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FriendPlaces_99th_Percentile",
+            "description": "FriendPlaces 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FriendPlaces_999th_Percentile",
+            "description": "FriendPlaces 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FriendPlaces_Count",
+            "description": "FriendPlaces Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FriendPlaces_Max",
+            "description": "FriendPlaces Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getFriendRatingHistogram,type=RatingHistogramResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FriendHistogram_50th_Percentile",
+            "description": "FriendHistogram 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FriendHistogram_75th_Percentile",
+            "description": "FriendHistogram 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FriendHistogram_95th_Percentile",
+            "description": "FriendHistogram 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FriendHistogram_99th_Percentile",
+            "description": "FriendHistogram 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FriendHistogram_999th_Percentile",
+            "description": "FriendHistogram 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FriendHistogram_Count",
+            "description": "FriendHistogram Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FriendHistogram_Max",
+            "description": "FriendHistogram Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "ness.rating.histogram:name=getRatingHistogram,type=RatingHistogramResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "RatingHistogram_50th_Percentile",
+            "description": "RatingHistogram 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "RatingHistogram_75th_Percentile",
+            "description": "RatingHistogram 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "RatingHistogram_95th_Percentile",
+            "description": "RatingHistogram 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "RatingHistogram_99th_Percentile",
+            "description": "RatingHistogram 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "RatingHistogram_999th_Percentile",
+            "description": "RatingHistogram 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "RatingHistogram_Count",
+            "description": "RatingHistogram Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "RatingHistogram_Max",
+            "description": "RatingHistogram Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}
+
