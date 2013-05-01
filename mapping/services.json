@@ -28,7 +28,7 @@
   , "PostalServer": "base"
   , "QuickviteServer": null
   , "RatingHistogramService": "base"
-  , "RatingServer": "ratuing"
+  , "RatingServer": "rating"
   , "RecommenderServer": "recommender"
   , "RecommenderTrainerServer": "recommender-trainer"
   , "S3UploadSigner": null
