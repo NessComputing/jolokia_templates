@@ -4,7 +4,7 @@
   "mappings": [
   
     {
-      "mbean": "ness.flag:name=handleRequest,type=MessageResource",
+      "mbean": "ness.message:name=handleRequest,type=MessageResource",
       "attributes": [
         {
           "name": "50thPercentile",
@@ -74,7 +74,7 @@
     },
 
     {
-      "mbean": "ness.flag.dao:name=handleQuery,type=MessageResource",
+      "mbean": "ness.message:name=handleQuery,type=MessageResource",
       "attributes": [
         {
           "name": "50thPercentile",

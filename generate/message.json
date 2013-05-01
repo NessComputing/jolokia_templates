@@ -4,12 +4,12 @@
   "mappings": [
   
     {
-      "mbean": "ness.flag:name=handleRequest,type=MessageResource",
+      "mbean": "ness.message:name=handleRequest,type=MessageResource",
       ResponseStatistics HandleRequest
     },
 
     {
-      "mbean": "ness.flag.dao:name=handleQuery,type=MessageResource",
+      "mbean": "ness.message:name=handleQuery,type=MessageResource",
       ResponseStatistics Query
     }
  ]
