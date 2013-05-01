@@ -15,6 +15,7 @@
   , "Haproxy": null
   , "Instagram": null
   , "JsonApi": null
+  , "ListServer": "list"
   , "MagicScreen": "magic-screen"
   , "MessageServer": "message"
   , "NewsfeedServer": "newsfeed"

@@ -1,0 +1,56 @@
+{
+  "name": "list",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.list.resource:name=createList,type=ListResource",
+      ResponseStatistics Create
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=countEntitiesInNewlySharedLists,type=ListResource",
+      ResponseStatistics CountEntities
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=findLists,type=ListResource",
+      ResponseStatistics FindLists
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getCanSeeLists,type=ListResource",
+      ResponseStatistics CanSee
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getEntityLists,type=ListResource",
+      ResponseStatistics GetEntities
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getList,type=ListResource",
+      ResponseStatistics GetList
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getListEntities,type=ListResource",
+      ResponseStatistics GetListEntities
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getListMembers,type=ListResource",
+      ResponseStatistics GetMembers
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getPlacesToAvoid,type=ListResource",
+      ResponseStatistics PlacesToAvoid
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=updateList,type=ListResource",
+      ResponseStatistics UpdateList
+    }
+ ]
+}

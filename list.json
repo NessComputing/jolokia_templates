@@ -1,0 +1,706 @@
+{
+  "name": "list",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.list.resource:name=createList,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Create_50th_Percentile",
+            "description": "Create 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Create_75th_Percentile",
+            "description": "Create 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Create_95th_Percentile",
+            "description": "Create 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Create_99th_Percentile",
+            "description": "Create 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Create_999th_Percentile",
+            "description": "Create 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Create_Count",
+            "description": "Create Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Create_Max",
+            "description": "Create Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=countEntitiesInNewlySharedLists,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CountEntities_50th_Percentile",
+            "description": "CountEntities 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CountEntities_75th_Percentile",
+            "description": "CountEntities 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CountEntities_95th_Percentile",
+            "description": "CountEntities 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CountEntities_99th_Percentile",
+            "description": "CountEntities 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CountEntities_999th_Percentile",
+            "description": "CountEntities 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "CountEntities_Count",
+            "description": "CountEntities Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CountEntities_Max",
+            "description": "CountEntities Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=findLists,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FindLists_50th_Percentile",
+            "description": "FindLists 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FindLists_75th_Percentile",
+            "description": "FindLists 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FindLists_95th_Percentile",
+            "description": "FindLists 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FindLists_99th_Percentile",
+            "description": "FindLists 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FindLists_999th_Percentile",
+            "description": "FindLists 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FindLists_Count",
+            "description": "FindLists Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FindLists_Max",
+            "description": "FindLists Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getCanSeeLists,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "CanSee_50th_Percentile",
+            "description": "CanSee 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "CanSee_75th_Percentile",
+            "description": "CanSee 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "CanSee_95th_Percentile",
+            "description": "CanSee 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "CanSee_99th_Percentile",
+            "description": "CanSee 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "CanSee_999th_Percentile",
+            "description": "CanSee 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "CanSee_Count",
+            "description": "CanSee Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "CanSee_Max",
+            "description": "CanSee Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getEntityLists,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetEntities_50th_Percentile",
+            "description": "GetEntities 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetEntities_75th_Percentile",
+            "description": "GetEntities 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetEntities_95th_Percentile",
+            "description": "GetEntities 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetEntities_99th_Percentile",
+            "description": "GetEntities 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetEntities_999th_Percentile",
+            "description": "GetEntities 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetEntities_Count",
+            "description": "GetEntities Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetEntities_Max",
+            "description": "GetEntities Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getList,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetList_50th_Percentile",
+            "description": "GetList 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetList_75th_Percentile",
+            "description": "GetList 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetList_95th_Percentile",
+            "description": "GetList 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetList_99th_Percentile",
+            "description": "GetList 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetList_999th_Percentile",
+            "description": "GetList 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetList_Count",
+            "description": "GetList Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetList_Max",
+            "description": "GetList Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getListEntities,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetListEntities_50th_Percentile",
+            "description": "GetListEntities 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetListEntities_75th_Percentile",
+            "description": "GetListEntities 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetListEntities_95th_Percentile",
+            "description": "GetListEntities 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetListEntities_99th_Percentile",
+            "description": "GetListEntities 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetListEntities_999th_Percentile",
+            "description": "GetListEntities 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetListEntities_Count",
+            "description": "GetListEntities Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetListEntities_Max",
+            "description": "GetListEntities Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getListMembers,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetMembers_50th_Percentile",
+            "description": "GetMembers 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetMembers_75th_Percentile",
+            "description": "GetMembers 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetMembers_95th_Percentile",
+            "description": "GetMembers 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetMembers_99th_Percentile",
+            "description": "GetMembers 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetMembers_999th_Percentile",
+            "description": "GetMembers 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetMembers_Count",
+            "description": "GetMembers Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetMembers_Max",
+            "description": "GetMembers Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=getPlacesToAvoid,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PlacesToAvoid_50th_Percentile",
+            "description": "PlacesToAvoid 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PlacesToAvoid_75th_Percentile",
+            "description": "PlacesToAvoid 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PlacesToAvoid_95th_Percentile",
+            "description": "PlacesToAvoid 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PlacesToAvoid_99th_Percentile",
+            "description": "PlacesToAvoid 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PlacesToAvoid_999th_Percentile",
+            "description": "PlacesToAvoid 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PlacesToAvoid_Count",
+            "description": "PlacesToAvoid Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PlacesToAvoid_Max",
+            "description": "PlacesToAvoid Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+  
+    {
+      "mbean": "ness.list.resource:name=updateList,type=ListResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "UpdateList_50th_Percentile",
+            "description": "UpdateList 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "UpdateList_75th_Percentile",
+            "description": "UpdateList 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "UpdateList_95th_Percentile",
+            "description": "UpdateList 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "UpdateList_99th_Percentile",
+            "description": "UpdateList 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "UpdateList_999th_Percentile",
+            "description": "UpdateList 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "UpdateList_Count",
+            "description": "UpdateList Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "UpdateList_Max",
+            "description": "UpdateList Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+ ]
+}
