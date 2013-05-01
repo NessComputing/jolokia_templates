@@ -1,6 +1,6 @@
 {
     "ActivemqService": null
-  , "BadgeServer": null
+  , "BadgeServer": "badge"
   , "Binshim": null
   , "CheckinServer": "checkin"
   , "DiscoveryServer": "base"
@@ -28,7 +28,7 @@
   , "PostalServer": "base"
   , "QuickviteServer": null
   , "RatingHistogramService": "base"
-  , "RatingServer": "base"
+  , "RatingServer": "ratuing"
   , "RecommenderServer": "recommender"
   , "RecommenderTrainerServer": "recommender-trainer"
   , "S3UploadSigner": null

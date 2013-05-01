@@ -1,0 +1,27 @@
+{
+  "name": "rating",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.rating.resource:name=doQuery,type=QueryResource",
+      ResponseStatistics Query
+    },
+
+    {
+      "mbean": "ness.rating.resource:name=delete,type=RatingResource",
+      ResponseStatistics Delete
+    },
+
+    {
+      "mbean": "ness.rating.resource:name=postDelete,type=RatingResource",
+      ResponseStatistics PostDelete
+    },
+
+    {
+      "mbean": "ness.rating.resource:name=store,type=RatingResource",
+      ResponseStatistics Store
+    }
+  ]
+}
+

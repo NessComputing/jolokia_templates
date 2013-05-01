@@ -1,0 +1,17 @@
+{
+  "name": "badge",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.badge:name=handleQuery,type=BadgeResource",
+      ResponseStatistics Query
+    },
+
+    {
+      "mbean": "ness.badge:name=handleRequest,type=BadgeResource",
+      ResponseStatistics HandleRequest
+    }
+  ]
+}
+
