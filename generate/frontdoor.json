@@ -4,11 +4,6 @@
   "mappings": [
   
     {
-      "mbean": "ness.frontdoor:name=lookup,type=FrontdoorHandler",
-      ResponseStatistics Lookup
-    },
-
-    {
       "mbean": "ness.frontdoor:name=handle,type=FrontdoorHandler",
       ResponseStatistics HandleRequest
     },
