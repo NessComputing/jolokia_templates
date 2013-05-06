@@ -4,7 +4,7 @@
   "mappings": [
 
     {
-      "mbean": "io.trumpet.api.config:name=getConfiguration,type=ApnsResource",
+      "mbean": "io.trumpet.api.config:name=getConfiguration,type=ConfigurationResource",
       ResponseStatistics Config
     },
 
