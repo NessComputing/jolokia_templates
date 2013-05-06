@@ -9,6 +9,11 @@
     },
 
     {
+      "mbean": "ness.frontdoor:name=handle,type=FrontdoorHandler",
+      ResponseStatistics HandleRequest
+    },
+
+    {
       "mbean": "ness.frontdoor:name=not-found,type=FrontdoorHandler",
       "attributes": [
         {

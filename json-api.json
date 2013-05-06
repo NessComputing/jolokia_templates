@@ -1,0 +1,847 @@
+{
+  "name": "json-api",
+  "inherits": "base",
+  "mappings": [
+
+    {
+      "mbean": "io.trumpet.api.config:name=getConfiguration,type=ApnsResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Config_50th_Percentile",
+            "description": "Config 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Config_75th_Percentile",
+            "description": "Config 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Config_95th_Percentile",
+            "description": "Config 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Config_99th_Percentile",
+            "description": "Config 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Config_999th_Percentile",
+            "description": "Config 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Config_Count",
+            "description": "Config Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Config_Max",
+            "description": "Config Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doSearch,type=SearchDelegateResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Search_50th_Percentile",
+            "description": "Search 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Search_75th_Percentile",
+            "description": "Search 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Search_95th_Percentile",
+            "description": "Search 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Search_99th_Percentile",
+            "description": "Search 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Search_999th_Percentile",
+            "description": "Search 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Search_Count",
+            "description": "Search Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Search_Max",
+            "description": "Search Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getSearchAutocomplete,type=AutocompleteDelegateResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "SearchAutoComplete_50th_Percentile",
+            "description": "SearchAutoComplete 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "SearchAutoComplete_75th_Percentile",
+            "description": "SearchAutoComplete 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "SearchAutoComplete_95th_Percentile",
+            "description": "SearchAutoComplete 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "SearchAutoComplete_99th_Percentile",
+            "description": "SearchAutoComplete 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "SearchAutoComplete_999th_Percentile",
+            "description": "SearchAutoComplete 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "SearchAutoComplete_Count",
+            "description": "SearchAutoComplete Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "SearchAutoComplete_Max",
+            "description": "SearchAutoComplete Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getLocationAutocomplete,type=AutocompleteDelegateResourceV4",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "LocAutoComplete_50th_Percentile",
+            "description": "LocAutoComplete 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "LocAutoComplete_75th_Percentile",
+            "description": "LocAutoComplete 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "LocAutoComplete_95th_Percentile",
+            "description": "LocAutoComplete 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "LocAutoComplete_99th_Percentile",
+            "description": "LocAutoComplete 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "LocAutoComplete_999th_Percentile",
+            "description": "LocAutoComplete 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "LocAutoComplete_Count",
+            "description": "LocAutoComplete Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "LocAutoComplete_Max",
+            "description": "LocAutoComplete Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getTopBadges,type=BadgeResourceV4",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Badge_50th_Percentile",
+            "description": "Badge 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Badge_75th_Percentile",
+            "description": "Badge 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Badge_95th_Percentile",
+            "description": "Badge 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Badge_99th_Percentile",
+            "description": "Badge 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Badge_999th_Percentile",
+            "description": "Badge 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Badge_Count",
+            "description": "Badge Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Badge_Max",
+            "description": "Badge Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getActivity,type=EntityActivityOnlyResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "ActivityOnly_50th_Percentile",
+            "description": "ActivityOnly 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "ActivityOnly_75th_Percentile",
+            "description": "ActivityOnly 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "ActivityOnly_95th_Percentile",
+            "description": "ActivityOnly 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "ActivityOnly_99th_Percentile",
+            "description": "ActivityOnly 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "ActivityOnly_999th_Percentile",
+            "description": "ActivityOnly 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "ActivityOnly_Count",
+            "description": "ActivityOnly Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "ActivityOnly_Max",
+            "description": "ActivityOnly Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=redirect,type=PlaceImagesRedirectResourceV2",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "PlaceImages_50th_Percentile",
+            "description": "PlaceImages 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "PlaceImages_75th_Percentile",
+            "description": "PlaceImages 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "PlaceImages_95th_Percentile",
+            "description": "PlaceImages 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "PlaceImages_99th_Percentile",
+            "description": "PlaceImages 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "PlaceImages_999th_Percentile",
+            "description": "PlaceImages 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "PlaceImages_Count",
+            "description": "PlaceImages Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "PlaceImages_Max",
+            "description": "PlaceImages Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doQuickrate,type=QuickrateDelegateResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "QuickRate_50th_Percentile",
+            "description": "QuickRate 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "QuickRate_75th_Percentile",
+            "description": "QuickRate 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "QuickRate_95th_Percentile",
+            "description": "QuickRate 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "QuickRate_99th_Percentile",
+            "description": "QuickRate 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "QuickRate_999th_Percentile",
+            "description": "QuickRate 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "QuickRate_Count",
+            "description": "QuickRate Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "QuickRate_Max",
+            "description": "QuickRate Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doSkip,type=QuickrateDelegateResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "QuickRateSkip_50th_Percentile",
+            "description": "QuickRateSkip 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "QuickRateSkip_75th_Percentile",
+            "description": "QuickRateSkip 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "QuickRateSkip_95th_Percentile",
+            "description": "QuickRateSkip 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "QuickRateSkip_99th_Percentile",
+            "description": "QuickRateSkip 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "QuickRateSkip_999th_Percentile",
+            "description": "QuickRateSkip 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "QuickRateSkip_Count",
+            "description": "QuickRateSkip Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "QuickRateSkip_Max",
+            "description": "QuickRateSkip Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=postRating,type=RatingResourceV3",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Rating_50th_Percentile",
+            "description": "Rating 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Rating_75th_Percentile",
+            "description": "Rating 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Rating_95th_Percentile",
+            "description": "Rating 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Rating_99th_Percentile",
+            "description": "Rating 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Rating_999th_Percentile",
+            "description": "Rating 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Rating_Count",
+            "description": "Rating Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Rating_Max",
+            "description": "Rating Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getFeedCount,type=UnratedCheckinFeedResourceV4",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "FeedCount_50th_Percentile",
+            "description": "FeedCount 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "FeedCount_75th_Percentile",
+            "description": "FeedCount 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "FeedCount_95th_Percentile",
+            "description": "FeedCount 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "FeedCount_99th_Percentile",
+            "description": "FeedCount 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "FeedCount_999th_Percentile",
+            "description": "FeedCount 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "FeedCount_Count",
+            "description": "FeedCount Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "FeedCount_Max",
+            "description": "FeedCount Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getType,type=EntityCollectionResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "EntityGetType_50th_Percentile",
+            "description": "EntityGetType 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "EntityGetType_75th_Percentile",
+            "description": "EntityGetType 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "EntityGetType_95th_Percentile",
+            "description": "EntityGetType 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "EntityGetType_99th_Percentile",
+            "description": "EntityGetType 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "EntityGetType_999th_Percentile",
+            "description": "EntityGetType 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "EntityGetType_Count",
+            "description": "EntityGetType Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "EntityGetType_Max",
+            "description": "EntityGetType Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+
+  ]
+}

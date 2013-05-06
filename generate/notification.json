@@ -1,0 +1,11 @@
+{
+  "name": "notification",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.notification.client.apns:name=registerDevice,type=ApnsResource",
+      ResponseStatistics Register
+    }
+  ]
+}

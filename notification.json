@@ -1,0 +1,76 @@
+{
+  "name": "notification",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "ness.notification.client.apns:name=registerDevice,type=ApnsResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "Register_50th_Percentile",
+            "description": "Register 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "Register_75th_Percentile",
+            "description": "Register 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "Register_95th_Percentile",
+            "description": "Register 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "Register_99th_Percentile",
+            "description": "Register 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "Register_999th_Percentile",
+            "description": "Register 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "Register_Count",
+            "description": "Register Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "Register_Max",
+            "description": "Register Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}

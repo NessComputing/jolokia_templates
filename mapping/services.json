@@ -14,12 +14,12 @@
   , "Frontdoor": "frontdoor"
   , "Haproxy": null
   , "Instagram": null
-  , "JsonApi": null
+  , "JsonApi": "json-api"
   , "ListServer": "list"
   , "MagicScreen": "magic-screen"
   , "MessageServer": "message"
   , "NewsfeedServer": "newsfeed"
-  , "NotificationServer": null
+  , "NotificationServer": "notification"
   , "OpengraphSyndicationServer": "base"
   , "PhotoServer": "photo"
   , "PlaceConstraintModerationServer": "base"
@@ -33,7 +33,7 @@
   , "RecommenderTrainerServer": "recommender-trainer"
   , "S3UploadSigner": null
   , "SearchCore": "search-core"
-  , "SearchIndexing": "base"
+  , "SearchIndexing": "search-indexing"
   , "UserServer": "user"
   , "WebEntityPageServer": null
   , "WorkQueueServer": "base"

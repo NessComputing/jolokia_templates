@@ -1,0 +1,11 @@
+{
+  "name": "search-indexing",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.indexing.server:name=getIndex,type=SearchIndexResource",
+      ResponseStatistics GetIndex
+    }
+  ]
+}

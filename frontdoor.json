@@ -74,6 +74,76 @@
     },
 
     {
+      "mbean": "ness.frontdoor:name=handle,type=FrontdoorHandler",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "HandleRequest_50th_Percentile",
+            "description": "HandleRequest 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "HandleRequest_75th_Percentile",
+            "description": "HandleRequest 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "HandleRequest_95th_Percentile",
+            "description": "HandleRequest 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "HandleRequest_99th_Percentile",
+            "description": "HandleRequest 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "HandleRequest_999th_Percentile",
+            "description": "HandleRequest 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "HandleRequest_Count",
+            "description": "HandleRequest Count",
+            "units": "objects",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "HandleRequest_Max",
+            "description": "HandleRequest Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    },
+
+    {
       "mbean": "ness.frontdoor:name=not-found,type=FrontdoorHandler",
       "attributes": [
         {

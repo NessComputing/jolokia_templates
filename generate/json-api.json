@@ -1,0 +1,67 @@
+{
+  "name": "json-api",
+  "inherits": "base",
+  "mappings": [
+
+    {
+      "mbean": "io.trumpet.api.config:name=getConfiguration,type=ApnsResource",
+      ResponseStatistics Config
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doSearch,type=SearchDelegateResourceV3",
+      ResponseStatistics Search
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getSearchAutocomplete,type=AutocompleteDelegateResourceV3",
+      ResponseStatistics SearchAutoComplete
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getLocationAutocomplete,type=AutocompleteDelegateResourceV4",
+      ResponseStatistics LocAutoComplete
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getTopBadges,type=BadgeResourceV4",
+      ResponseStatistics Badge
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getActivity,type=EntityActivityOnlyResourceV3",
+      ResponseStatistics ActivityOnly
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=redirect,type=PlaceImagesRedirectResourceV2",
+      ResponseStatistics PlaceImages
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doQuickrate,type=QuickrateDelegateResourceV3",
+      ResponseStatistics QuickRate
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=doSkip,type=QuickrateDelegateResourceV3",
+      ResponseStatistics QuickRateSkip
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=postRating,type=RatingResourceV3",
+      ResponseStatistics Rating
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getFeedCount,type=UnratedCheckinFeedResourceV4",
+      ResponseStatistics FeedCount
+    },
+
+    {
+      "mbean": "io.trumpet.api.resource:name=getType,type=EntityCollectionResource",
+      ResponseStatistics EntityGetType
+    }
+
+  ]
+}
