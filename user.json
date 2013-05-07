@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "LoadAccounts_Count",
-            "description": "LoadAccounts Count",
-            "units": "objects",
+            "name": "LoadAccountss_Per_Second",
+            "description": "LoadAccountss Per Second",
+            "units": "LoadAccountss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "LoadBySourceId_Count",
-            "description": "LoadBySourceId Count",
-            "units": "objects",
+            "name": "LoadBySourceIds_Per_Second",
+            "description": "LoadBySourceIds Per Second",
+            "units": "LoadBySourceIds/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UsersForAccounts_Count",
-            "description": "UsersForAccounts Count",
-            "units": "objects",
+            "name": "UsersForAccountss_Per_Second",
+            "description": "UsersForAccountss Per Second",
+            "units": "UsersForAccountss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Store_Count",
-            "description": "Store Count",
-            "units": "objects",
+            "name": "Stores_Per_Second",
+            "description": "Stores Per Second",
+            "units": "Stores/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FriendsMap_Count",
-            "description": "FriendsMap Count",
-            "units": "objects",
+            "name": "FriendsMaps_Per_Second",
+            "description": "FriendsMaps Per Second",
+            "units": "FriendsMaps/Sec",
             "type": "uint32",
             "slope": "positive"
           }

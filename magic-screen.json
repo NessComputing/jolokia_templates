@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "MagicList_Count",
-            "description": "MagicList Count",
-            "units": "objects",
+            "name": "MagicLists_Per_Second",
+            "description": "MagicLists Per Second",
+            "units": "MagicLists/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "MagicPhoto_Count",
-            "description": "MagicPhoto Count",
-            "units": "objects",
+            "name": "MagicPhotos_Per_Second",
+            "description": "MagicPhotos Per Second",
+            "units": "MagicPhotos/Sec",
             "type": "uint32",
             "slope": "positive"
           }

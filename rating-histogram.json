@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FriendCheckins_Count",
-            "description": "FriendCheckins Count",
-            "units": "objects",
+            "name": "FriendCheckinss_Per_Second",
+            "description": "FriendCheckinss Per Second",
+            "units": "FriendCheckinss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FriendPlaces_Count",
-            "description": "FriendPlaces Count",
-            "units": "objects",
+            "name": "FriendPlacess_Per_Second",
+            "description": "FriendPlacess Per Second",
+            "units": "FriendPlacess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FriendHistogram_Count",
-            "description": "FriendHistogram Count",
-            "units": "objects",
+            "name": "FriendHistograms_Per_Second",
+            "description": "FriendHistograms Per Second",
+            "units": "FriendHistograms/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "RatingHistogram_Count",
-            "description": "RatingHistogram Count",
-            "units": "objects",
+            "name": "RatingHistograms_Per_Second",
+            "description": "RatingHistograms Per Second",
+            "units": "RatingHistograms/Sec",
             "type": "uint32",
             "slope": "positive"
           }

@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Query_Count",
-            "description": "Query Count",
-            "units": "objects",
+            "name": "Querys_Per_Second",
+            "description": "Querys Per Second",
+            "units": "Querys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "EntityQuery_Count",
-            "description": "EntityQuery Count",
-            "units": "objects",
+            "name": "EntityQuerys_Per_Second",
+            "description": "EntityQuerys Per Second",
+            "units": "EntityQuerys/Sec",
             "type": "uint32",
             "slope": "positive"
           }

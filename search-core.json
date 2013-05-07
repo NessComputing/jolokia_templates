@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Search_Count",
-            "description": "Search Count",
-            "units": "objects",
+            "name": "Searchs_Per_Second",
+            "description": "Searchs Per Second",
+            "units": "Searchs/Sec",
             "type": "uint32",
             "slope": "positive"
           }

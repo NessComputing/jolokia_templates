@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "HandleRequest_Count",
-            "description": "HandleRequest Count",
-            "units": "objects",
+            "name": "HandleRequests_Per_Second",
+            "description": "HandleRequests Per Second",
+            "units": "HandleRequests/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -77,11 +77,11 @@
       "mbean": "ness.frontdoor:name=not-found,type=FrontdoorHandler",
       "attributes": [
         {
-          "name": "NotFound",
+          "name": "NotFound_Per_Second",
           "graph": {
             "name": "Not_Found",
-            "description": "Not Found",
-            "units": "objects",
+            "description": "Not Found Per Second",
+            "units": "Not Found/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -93,11 +93,11 @@
       "mbean": "ness.frontdoor.batch:name=batch-requests,type=BatchRequestHandler",
       "attributes": [
         {
-          "name": "BatchRequests",
+          "name": "BatchRequests_Per_Second",
           "graph": {
             "name": "Batch_Requests",
-            "description": "Batch Requests",
-            "units": "objects",
+            "description": "Batch Requests Per Second",
+            "units": "Requests/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -113,7 +113,7 @@
           "graph": {
             "name": "Available_Services",
             "description": "Available_Services",
-            "units": "objects",
+            "units": "Services",
             "type": "uint32"
           }
         }

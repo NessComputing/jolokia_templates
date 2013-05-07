@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Create_Count",
-            "description": "Create Count",
-            "units": "objects",
+            "name": "Creates_Per_Second",
+            "description": "Creates Per Second",
+            "units": "Creates/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CountEntities_Count",
-            "description": "CountEntities Count",
-            "units": "objects",
+            "name": "CountEntitiess_Per_Second",
+            "description": "CountEntitiess Per Second",
+            "units": "CountEntitiess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FindLists_Count",
-            "description": "FindLists Count",
-            "units": "objects",
+            "name": "FindListss_Per_Second",
+            "description": "FindListss Per Second",
+            "units": "FindListss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CanSee_Count",
-            "description": "CanSee Count",
-            "units": "objects",
+            "name": "CanSees_Per_Second",
+            "description": "CanSees Per Second",
+            "units": "CanSees/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "GetEntities_Count",
-            "description": "GetEntities Count",
-            "units": "objects",
+            "name": "GetEntitiess_Per_Second",
+            "description": "GetEntitiess Per Second",
+            "units": "GetEntitiess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -404,9 +404,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "GetList_Count",
-            "description": "GetList Count",
-            "units": "objects",
+            "name": "GetLists_Per_Second",
+            "description": "GetLists Per Second",
+            "units": "GetLists/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -474,9 +474,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "GetListEntities_Count",
-            "description": "GetListEntities Count",
-            "units": "objects",
+            "name": "GetListEntitiess_Per_Second",
+            "description": "GetListEntitiess Per Second",
+            "units": "GetListEntitiess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -544,9 +544,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "GetMembers_Count",
-            "description": "GetMembers Count",
-            "units": "objects",
+            "name": "GetMemberss_Per_Second",
+            "description": "GetMemberss Per Second",
+            "units": "GetMemberss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -614,9 +614,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PlacesToAvoid_Count",
-            "description": "PlacesToAvoid Count",
-            "units": "objects",
+            "name": "PlacesToAvoids_Per_Second",
+            "description": "PlacesToAvoids Per Second",
+            "units": "PlacesToAvoids/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -684,9 +684,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UpdateList_Count",
-            "description": "UpdateList Count",
-            "units": "objects",
+            "name": "UpdateLists_Per_Second",
+            "description": "UpdateLists Per Second",
+            "units": "UpdateLists/Sec",
             "type": "uint32",
             "slope": "positive"
           }

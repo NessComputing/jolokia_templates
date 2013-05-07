@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "EntityCheckins_Count",
-            "description": "EntityCheckins Count",
-            "units": "objects",
+            "name": "EntityCheckinss_Per_Second",
+            "description": "EntityCheckinss Per Second",
+            "units": "EntityCheckinss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UserCheckins_Count",
-            "description": "UserCheckins Count",
-            "units": "objects",
+            "name": "UserCheckinss_Per_Second",
+            "description": "UserCheckinss Per Second",
+            "units": "UserCheckinss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "EntityMessages_Count",
-            "description": "EntityMessages Count",
-            "units": "objects",
+            "name": "EntityMessagess_Per_Second",
+            "description": "EntityMessagess Per Second",
+            "units": "EntityMessagess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UserMessages_Count",
-            "description": "UserMessages Count",
-            "units": "objects",
+            "name": "UserMessagess_Per_Second",
+            "description": "UserMessagess Per Second",
+            "units": "UserMessagess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "EntityRatings_Count",
-            "description": "EntityRatings Count",
-            "units": "objects",
+            "name": "EntityRatingss_Per_Second",
+            "description": "EntityRatingss Per Second",
+            "units": "EntityRatingss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -404,9 +404,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UserRatings_Count",
-            "description": "UserRatings Count",
-            "units": "objects",
+            "name": "UserRatingss_Per_Second",
+            "description": "UserRatingss Per Second",
+            "units": "UserRatingss/Sec",
             "type": "uint32",
             "slope": "positive"
           }

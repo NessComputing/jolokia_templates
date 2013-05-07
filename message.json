@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "HandleRequest_Count",
-            "description": "HandleRequest Count",
-            "units": "objects",
+            "name": "HandleRequests_Per_Second",
+            "description": "HandleRequests Per Second",
+            "units": "HandleRequests/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Query_Count",
-            "description": "Query Count",
-            "units": "objects",
+            "name": "Querys_Per_Second",
+            "description": "Querys Per Second",
+            "units": "Querys/Sec",
             "type": "uint32",
             "slope": "positive"
           }

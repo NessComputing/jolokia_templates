@@ -49,9 +49,9 @@ def generate()
         {
           "name": "Count",
           "graph": {
-            "name": "<Title>_Count",
-            "description": "<Title> Count",
-            "units": "objects",
+            "name": "<Title>s_Per_Second",
+            "description": "<Title>s Per Second",
+            "units": "<Title>s/Sec",
             "type": "uint32",
             "slope": "positive"
           }

@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Register_Count",
-            "description": "Register Count",
-            "units": "objects",
+            "name": "Registers_Per_Second",
+            "description": "Registers Per Second",
+            "units": "Registers/Sec",
             "type": "uint32",
             "slope": "positive"
           }

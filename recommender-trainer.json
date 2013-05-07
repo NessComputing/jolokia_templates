@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CreateRecommender_Count",
-            "description": "CreateRecommender Count",
-            "units": "objects",
+            "name": "CreateRecommenders_Per_Second",
+            "description": "CreateRecommenders Per Second",
+            "units": "CreateRecommenders/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "LoadRecommender_Count",
-            "description": "LoadRecommender Count",
-            "units": "objects",
+            "name": "LoadRecommenders_Per_Second",
+            "description": "LoadRecommenders Per Second",
+            "units": "LoadRecommenders/Sec",
             "type": "uint32",
             "slope": "positive"
           }

@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Config_Count",
-            "description": "Config Count",
-            "units": "objects",
+            "name": "Configs_Per_Second",
+            "description": "Configs Per Second",
+            "units": "Configs/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Search_Count",
-            "description": "Search Count",
-            "units": "objects",
+            "name": "Searchs_Per_Second",
+            "description": "Searchs Per Second",
+            "units": "Searchs/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "SearchAutoComplete_Count",
-            "description": "SearchAutoComplete Count",
-            "units": "objects",
+            "name": "SearchAutoCompletes_Per_Second",
+            "description": "SearchAutoCompletes Per Second",
+            "units": "SearchAutoCompletes/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "LocAutoComplete_Count",
-            "description": "LocAutoComplete Count",
-            "units": "objects",
+            "name": "LocAutoCompletes_Per_Second",
+            "description": "LocAutoCompletes Per Second",
+            "units": "LocAutoCompletes/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Badge_Count",
-            "description": "Badge Count",
-            "units": "objects",
+            "name": "Badges_Per_Second",
+            "description": "Badges Per Second",
+            "units": "Badges/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -404,9 +404,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "ActivityOnly_Count",
-            "description": "ActivityOnly Count",
-            "units": "objects",
+            "name": "ActivityOnlys_Per_Second",
+            "description": "ActivityOnlys Per Second",
+            "units": "ActivityOnlys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -474,9 +474,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PlaceImages_Count",
-            "description": "PlaceImages Count",
-            "units": "objects",
+            "name": "PlaceImagess_Per_Second",
+            "description": "PlaceImagess Per Second",
+            "units": "PlaceImagess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -544,9 +544,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "QuickRate_Count",
-            "description": "QuickRate Count",
-            "units": "objects",
+            "name": "QuickRates_Per_Second",
+            "description": "QuickRates Per Second",
+            "units": "QuickRates/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -614,9 +614,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "QuickRateSkip_Count",
-            "description": "QuickRateSkip Count",
-            "units": "objects",
+            "name": "QuickRateSkips_Per_Second",
+            "description": "QuickRateSkips Per Second",
+            "units": "QuickRateSkips/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -684,9 +684,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Rating_Count",
-            "description": "Rating Count",
-            "units": "objects",
+            "name": "Ratings_Per_Second",
+            "description": "Ratings Per Second",
+            "units": "Ratings/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -754,9 +754,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "FeedCount_Count",
-            "description": "FeedCount Count",
-            "units": "objects",
+            "name": "FeedCounts_Per_Second",
+            "description": "FeedCounts Per Second",
+            "units": "FeedCounts/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -824,9 +824,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "EntityGetType_Count",
-            "description": "EntityGetType Count",
-            "units": "objects",
+            "name": "EntityGetTypes_Per_Second",
+            "description": "EntityGetTypes Per Second",
+            "units": "EntityGetTypes/Sec",
             "type": "uint32",
             "slope": "positive"
           }

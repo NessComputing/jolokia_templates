@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Query_Count",
-            "description": "Query Count",
-            "units": "objects",
+            "name": "Querys_Per_Second",
+            "description": "Querys Per Second",
+            "units": "Querys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Delete_Count",
-            "description": "Delete Count",
-            "units": "objects",
+            "name": "Deletes_Per_Second",
+            "description": "Deletes Per Second",
+            "units": "Deletes/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PostDelete_Count",
-            "description": "PostDelete Count",
-            "units": "objects",
+            "name": "PostDeletes_Per_Second",
+            "description": "PostDeletes Per Second",
+            "units": "PostDeletes/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Store_Count",
-            "description": "Store Count",
-            "units": "objects",
+            "name": "Stores_Per_Second",
+            "description": "Stores Per Second",
+            "units": "Stores/Sec",
             "type": "uint32",
             "slope": "positive"
           }

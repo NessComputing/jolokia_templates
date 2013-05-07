@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CreatePhoto_Count",
-            "description": "CreatePhoto Count",
-            "units": "objects",
+            "name": "CreatePhotos_Per_Second",
+            "description": "CreatePhotos Per Second",
+            "units": "CreatePhotos/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Query_Count",
-            "description": "Query Count",
-            "units": "objects",
+            "name": "Querys_Per_Second",
+            "description": "Querys Per Second",
+            "units": "Querys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CardPhotos_Count",
-            "description": "CardPhotos Count",
-            "units": "objects",
+            "name": "CardPhotoss_Per_Second",
+            "description": "CardPhotoss Per Second",
+            "units": "CardPhotoss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PhotoMapping_Count",
-            "description": "PhotoMapping Count",
-            "units": "objects",
+            "name": "PhotoMappings_Per_Second",
+            "description": "PhotoMappings Per Second",
+            "units": "PhotoMappings/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PhotoBySource_Count",
-            "description": "PhotoBySource Count",
-            "units": "objects",
+            "name": "PhotoBySources_Per_Second",
+            "description": "PhotoBySources Per Second",
+            "units": "PhotoBySources/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -404,9 +404,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PhotoGallery_Count",
-            "description": "PhotoGallery Count",
-            "units": "objects",
+            "name": "PhotoGallerys_Per_Second",
+            "description": "PhotoGallerys Per Second",
+            "units": "PhotoGallerys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -474,9 +474,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CreateLink_Count",
-            "description": "CreateLink Count",
-            "units": "objects",
+            "name": "CreateLinks_Per_Second",
+            "description": "CreateLinks Per Second",
+            "units": "CreateLinks/Sec",
             "type": "uint32",
             "slope": "positive"
           }

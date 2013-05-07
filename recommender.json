@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Recommendations_Count",
-            "description": "Recommendations Count",
-            "units": "objects",
+            "name": "Recommendationss_Per_Second",
+            "description": "Recommendationss Per Second",
+            "units": "Recommendationss/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Confidences_Count",
-            "description": "Confidences Count",
-            "units": "objects",
+            "name": "Confidencess_Per_Second",
+            "description": "Confidencess Per Second",
+            "units": "Confidencess/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "CuisineSimilarity_Count",
-            "description": "CuisineSimilarity Count",
-            "units": "objects",
+            "name": "CuisineSimilaritys_Per_Second",
+            "description": "CuisineSimilaritys Per Second",
+            "units": "CuisineSimilaritys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "UserState_Count",
-            "description": "UserState Count",
-            "units": "objects",
+            "name": "UserStates_Per_Second",
+            "description": "UserStates Per Second",
+            "units": "UserStates/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -334,9 +334,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "PlaceExplanations_Count",
-            "description": "PlaceExplanations Count",
-            "units": "objects",
+            "name": "PlaceExplanationss_Per_Second",
+            "description": "PlaceExplanationss Per Second",
+            "units": "PlaceExplanationss/Sec",
             "type": "uint32",
             "slope": "positive"
           }

@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "GetIndex_Count",
-            "description": "GetIndex Count",
-            "units": "objects",
+            "name": "GetIndexs_Per_Second",
+            "description": "GetIndexs Per Second",
+            "units": "GetIndexs/Sec",
             "type": "uint32",
             "slope": "positive"
           }

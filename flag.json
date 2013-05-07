@@ -54,9 +54,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "HandleRequest_Count",
-            "description": "HandleRequest Count",
-            "units": "objects",
+            "name": "HandleRequests_Per_Second",
+            "description": "HandleRequests Per Second",
+            "units": "HandleRequests/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -124,9 +124,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Store_Count",
-            "description": "Store Count",
-            "units": "objects",
+            "name": "Stores_Per_Second",
+            "description": "Stores Per Second",
+            "units": "Stores/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -194,9 +194,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "Query_Count",
-            "description": "Query Count",
-            "units": "objects",
+            "name": "Querys_Per_Second",
+            "description": "Querys Per Second",
+            "units": "Querys/Sec",
             "type": "uint32",
             "slope": "positive"
           }
@@ -264,9 +264,9 @@
         {
           "name": "Count",
           "graph": {
-            "name": "ApproxCount_Count",
-            "description": "ApproxCount Count",
-            "units": "objects",
+            "name": "ApproxCounts_Per_Second",
+            "description": "ApproxCounts Per Second",
+            "units": "ApproxCounts/Sec",
             "type": "uint32",
             "slope": "positive"
           }
