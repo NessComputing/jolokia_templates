@@ -421,6 +421,76 @@
           }
         }
       ]
+    },
+
+    {
+      "mbean": "ness.newsfeed:name=getNewsFeed,type=NewsfeedResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetNewsFeed_50th_Percentile",
+            "description": "GetNewsFeed 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetNewsFeed_75th_Percentile",
+            "description": "GetNewsFeed 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetNewsFeed_95th_Percentile",
+            "description": "GetNewsFeed 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetNewsFeed_99th_Percentile",
+            "description": "GetNewsFeed 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetNewsFeed_999th_Percentile",
+            "description": "GetNewsFeed 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetNewsFeeds_Per_Second",
+            "description": "GetNewsFeeds Per Second",
+            "units": "GetNewsFeeds/Sec",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetNewsFeed_Max",
+            "description": "GetNewsFeed Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
     }
  ]
 }

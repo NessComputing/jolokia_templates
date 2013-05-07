@@ -31,6 +31,11 @@
     {
       "mbean": "ness.newsfeed.provider:name=getItemsForUsers,type=RatingItemProvider",
       ResponseStatistics UserRatings
+    },
+
+    {
+      "mbean": "ness.newsfeed:name=getNewsFeed,type=NewsfeedResource",
+      ResponseStatistics GetNewsFeed
     }
  ]
 }
