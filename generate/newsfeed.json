@@ -34,8 +34,8 @@
     },
 
     {
-      "mbean": "ness.newsfeed:name=getNewsFeed,type=NewsfeedResource",
-      ResponseStatistics GetNewsFeed
+      "mbean": "ness.newsfeed:name=getNewsfeed,type=NewsfeedResource",
+      ResponseStatistics GetNewsfeed
     }
  ]
 }
