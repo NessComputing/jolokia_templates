@@ -1,5 +1,5 @@
 {
-  "name": "search-core",
+  "name": "search-server",
   "inherits": "base",
   "mappings": [
   
