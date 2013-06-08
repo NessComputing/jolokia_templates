@@ -1,0 +1,76 @@
+{
+  "name": "search-index-server",
+  "inherits": "base",
+  "mappings": [
+  
+    {
+      "mbean": "io.trumpet.indexing.server:name=getIndex,type=SearchIndexResource",
+      "attributes": [
+        {
+          "name": "50thPercentile",
+          "graph": {
+            "name": "GetIndex_50th_Percentile",
+            "description": "GetIndex 50th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "75thPercentile",
+          "graph": {
+            "name": "GetIndex_75th_Percentile",
+            "description": "GetIndex 75th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "95thPercentile",
+          "graph": {
+            "name": "GetIndex_95th_Percentile",
+            "description": "GetIndex 95th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "99thPercentile",
+          "graph": {
+            "name": "GetIndex_99th_Percentile",
+            "description": "GetIndex 99th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "999thPercentile",
+          "graph": {
+            "name": "GetIndex_999th_Percentile",
+            "description": "GetIndex 999th Percentile",
+            "units": "ms",
+            "type": "float"
+          }
+        },
+        {
+          "name": "Count",
+          "graph": {
+            "name": "GetIndexs_Per_Second",
+            "description": "GetIndexs Per Second",
+            "units": "GetIndexs/Sec",
+            "type": "uint32",
+            "slope": "positive"
+          }
+        },
+        {
+          "name": "Max",
+          "graph": {
+            "name": "GetIndex_Max",
+            "description": "GetIndex Max",
+            "units": "ms",
+            "type": "float"
+          }
+        }
+      ]
+    }
+  ]
+}

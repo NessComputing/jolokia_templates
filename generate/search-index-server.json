@@ -1,5 +1,5 @@
 {
-  "name": "search-indexing-server",
+  "name": "search-index-server",
   "inherits": "base",
   "mappings": [
   
