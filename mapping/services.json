@@ -32,7 +32,8 @@
   , "RecommenderServer": "recommender"
   , "RecommenderTrainerServer": "recommender-trainer"
   , "S3UploadSigner": null
-  , "SearchService": "search-service"
+  , "SearchServer": "search-server"
+  , "SearchIndexServer": "search-index-server"
   , "UserServer": "user"
   , "WebEntityPageServer": null
   , "WorkQueueServer": "base"
