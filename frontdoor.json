@@ -4,7 +4,7 @@
   "mappings": [
   
     {
-      "mbean": "ness.frontdoor:name=handle,type=FrontdoorHandler",
+      "mbean": "ness.frontdoor:name=service,type=FrontdoorServlet",
       "attributes": [
         {
           "name": "50thPercentile",
